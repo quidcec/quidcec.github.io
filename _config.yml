@@ -12,7 +12,7 @@ description: >
   Actualitat i entrades al voltat de QUID
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://quidcec.github.io" # the base hostname & protocol for your site
+url: "https://blog.quid.cat" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'QUID'
