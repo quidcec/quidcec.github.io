@@ -9,6 +9,9 @@ layout: default
 
     <section class="post-content">
       <a name="topofpage"></a>
+      {% if page.image %}
+        <amp-img width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}{{ page.image }}"></amp-img>
+      {% endif %}
       {{content}}
     </section>
     <footer class="post-footer">
