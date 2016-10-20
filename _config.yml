@@ -1,0 +1,32 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: QUID blog
+email: inof@quid.cat
+description: >
+  Actualitat i entrades al voltat de QUID
+logo: "/assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://quidblog.github.io" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'QUID'
+bio: >
+  Quid és diàleg és a dir una relació què l’emissor i el receptor intercanvien missatges alternativament.
+author_image: "/assets/images/author.png"
+twitter_username: quid_CEC
+github_username:  freecates
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate

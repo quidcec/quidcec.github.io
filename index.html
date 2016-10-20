@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<main class="content" role="main">
+
+  <header class="blog-header">
+      <h1 class="blog-title">{{ site.title }}</h1>
+      <h2 class="blog-description">{{ site.description }}</h2>
+  </header>
+
+  <div class="cf frame">
+    {% for post in paginator.posts %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+          <header class="post-header">
+            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+          </header>
+          <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+          </section>
+          <div class="post-meta">
+            <time datetime="{{ post.date }}">{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Gener
+  {% when '2' %}Febrer
+  {% when '3' %}Març
+  {% when '4' %}Abril
+  {% when '5' %}Maig
+  {% when '6' %}Juny
+  {% when '7' %}Juliol
+  {% when '8' %}Agost
+  {% when '9' %}Setembre
+  {% when '10' %}Octubre
+  {% when '11' %}Novembre
+  {% when '12' %}Decembre
+{% endcase %}
+{{ post.date | date: "%Y" }}</time>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Entrades anteriors</a>
+    {% else %}
+      <a class="newer-posts disabled">&larr; Entrades anteriors</a>
+    {% endif %}
+    <span class="page-number">Pàgina {{ paginator.page }} de {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="older-posts" href="{{ site.baseurl }}/">Noves entrades &rarr;</a>
+      {% else %}
+        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Noves entrades &rarr;</a>
+      {% endif %}
+    {% else %}
+      <a class="older-posts disabled">Noves entrades &rarr;</a>
+    {% endif %}
+  </nav>
+
+</main>
+
+{% include footer.html %}
