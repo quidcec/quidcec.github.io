@@ -9,16 +9,16 @@
 title: QUID blog
 email: inof@quid.cat
 description: >
-  Actualitat i entrades al voltat de QUID
+  Actualitat i entrades al voltat de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.quid.cat" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 assets-images: /assets/images/
 
-name: 'QUID'
+name: '<strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]'
 bio: >
-  Quid és diàleg és a dir una relació què l’emissor i el receptor intercanvien missatges alternativament.
+  QUID és diàleg és a dir una relació què l’emissor i el receptor intercanvien missatges alternativament.
 author_image: "/assets/images/author.png"
 twitter_username: quid_CEC
 github_username:  freecates

@@ -32,7 +32,9 @@ layout: default
 
           <p>
             <span>
-              {% if site.github_username %}
+              {% if page.github_username %}
+                {% include icon-github.html username=page.github_username %}
+              {% else %}
                 {% include icon-github.html username=site.github_username %}
               {% endif %}
             </span>
