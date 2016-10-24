@@ -24,8 +24,8 @@
       <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
 
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:site" content="@{{ site.twitter }}">
-      <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+      <meta name="twitter:site" content="@{{ site.twitter_username }}">
+      <meta name="twitter:creator" content="@{% if page.twitter_username %}{{ page.twitter-username }}{% else %}{{ site.twitter_username }}{% endif %}">
       <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }} &ndash; {% if page.category != '' %}{{ page.category }}{% endif %} &middot; {{ site.title }}">
       <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
       <meta name="twitter:image:src" content="{{ site.url }}{{ site.assets-images }}{{ page.image }}">
