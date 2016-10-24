@@ -1,4 +1,4 @@
-<head>
+  <head {% if page.og-type =="website" %}prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"{% endif %}{% if page.og-type =="article" %} prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"{% endif %}>
   <link rel="preload" as="style" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' onload="this.rel='stylesheet'">
   <link rel="preload" as="style" href='https://fonts.googleapis.com/css?family=Lora:400,700' onload="this.rel='stylesheet'">
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
@@ -9,6 +9,28 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    {% if page.og %}
+  <meta property="fb:app_id" content="1064356173625695"/>
+      {% if page.title %}
+    <meta property="og:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }} &ndash; {% if page.category != '' %}{{ page.category }}{% endif %} &middot; {{ site.title }}" />
+      {% else %}
+    <meta property="og:title" content="{{ site.title }}" />
+      {% endif %}
+  <meta property="og:type" content="{{ page.og-type }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+      {% if page.category == 'articles' or page.category == 'actualitat' %}
+      <meta property="og:image" content="{{ site.url }}{{ site.assets-images }}{{ page.image }}" />
+      <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@{{ site.twitter }}">
+      <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+      <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }} &ndash; {% if page.category != '' %}{{ page.category }}{% endif %} &middot; {{ site.title }}">
+      <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+      <meta name="twitter:image:src" content="{{ site.url }}{{ site.assets-images }}{{ page.image }}">
+      {% endif %}
+    {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

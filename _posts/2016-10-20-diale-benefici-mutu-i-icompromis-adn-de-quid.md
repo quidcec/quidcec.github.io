@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Diàleg, benefici mutu i compromís, l’ADN de QUID
-github_username: pepmares 
+github_username: pepmares
+category: articles
+og: true
+og-type: article
 image: quid-adn.jpg
 ---
 
