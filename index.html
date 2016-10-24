@@ -13,7 +13,41 @@ class: ""
   </header>
 
   <div class="cf frame">
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts limit:1 offset:0 %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+      {% if post.image %}
+          <a href="{{ site.baseurl }}{{ post.url }}"><amp-img width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}"></amp-img></a>
+      {% endif %}
+          <header class="post-header">
+            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+          </header>
+          <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          </section>
+          <div class="post-meta">
+            <time datetime="{{ post.date }}">{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Gener
+  {% when '2' %}Febrer
+  {% when '3' %}Març
+  {% when '4' %}Abril
+  {% when '5' %}Maig
+  {% when '6' %}Juny
+  {% when '7' %}Juliol
+  {% when '8' %}Agost
+  {% when '9' %}Setembre
+  {% when '10' %}Octubre
+  {% when '11' %}Novembre
+  {% when '12' %}Decembre
+{% endcase %}
+{{ post.date | date: "%Y" }}</time>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+    {% for post in paginator.posts offset:1 %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
