@@ -6,6 +6,7 @@ category: articles
 og: true
 og-type: article
 image: quid-adn.jpg
+image-caption: "3d render of dna structure, abstract background / fotolia"
 ---
 
 **QUID** és diàleg és a dir una relació què l'emissor i el receptor intercanvien missatges alternativament i de forma recíproca. Quid és benefici mutu busquem aquella estratègia que té com a objectiu que totes les parts en surtin beneficiades. Quid és compromís  per això som la garantia per trobar solucions i millores a les demandes.
