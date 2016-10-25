@@ -1,0 +1,8 @@
+        {% if page.image-caption != null %}
+          <figure>
+            <amp-img width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}{{ page.image }}"></amp-img>
+            <figcaption>{{ page.image-caption }}</figcaption>
+          </figure>
+        {% else %}
+          <amp-img width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}{{ page.image }}"></amp-img>
+        {% endif %}
