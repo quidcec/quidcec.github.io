@@ -24,9 +24,13 @@ layout: default
     <footer class="post-footer">
       <section class="share">
         <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
-          Share on
+          Share on 
           {% include icon-twitter.html %}
         </a>
+        <a class="icon" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.id }}&title={{ page.title | cgi_escape }}&summary={{ page.excerpt | strip_html | truncatewords: 30 }}&source={{ site.url }}">
+          Share on
+          {% include icon-linkedin.html %}
+        <a>
       </section>
       {% include related-posts.html %}      
     </footer>
