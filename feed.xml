@@ -14,14 +14,17 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{% if post.image %}{% if post.image-caption != null | xml_escape %}
-          <figure>
+        <description>{% if post.image %}{% if post.image-caption != null %}
+        <![CDATA[
+            <figure>
             <img width="600" height="300" alt="{{ post.title }}" src="{{ site.url }}{{ site.assets-images }}{{ post.image }}" />
             <figcaption>{{ post.image-caption }}</figcaption>
           </figure>
         {% else %}
           <img width="600" height="300" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}" />
-        {% endif %}{% endif %}{{ post.content | xml_escape }}</description>
+        {% endif %}
+        ]]>
+         {% endif %}{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
