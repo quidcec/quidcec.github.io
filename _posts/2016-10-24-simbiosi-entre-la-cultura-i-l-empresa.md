@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: Aliança-cultura-empresa-Quid.jpg
+image: alianca-cultura-empresa-quid.jpg
 image-caption: "http://www.publicdomainpictures.net/"
 ---
 
