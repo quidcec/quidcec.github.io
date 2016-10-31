@@ -1,6 +1,30 @@
 @import 'bourbon/bourbon';
 @import 'syntax-highlighting';
 
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans-Bold-webfont'), local('OpenSans-Bold-webfont'), url('/assets/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans-ExtraBold-webfont'), local('OpenSans-ExtraBold-webfont'), url('/assets/fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans-Light-webfont'), local('OpenSans-Light-webfont'), url('/assets/fonts/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
 $grey-color:       #828282;
 
 .icon {
