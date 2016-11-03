@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: connectar-empresa-cultura-RSC-metodologia.png
+image: connectar-empresa-cultura-rsc-metodologia.png
 image-caption: 
 ---
 
