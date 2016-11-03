@@ -20,10 +20,12 @@ layout: null
             <img width="600" height="300" alt="{{ post.title }}" src="{{ site.url }}{{ site.assets-images }}{{ post.image }}" />
             <figcaption>{{ post.image-caption }}</figcaption>
           </figure>
-        {% else %}
-          <img width="600" height="300" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}" />
-        {% endif %}
         ]]>
+        {% else %}
+        <![CDATA[
+          <img width="600" height="300" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}" />
+        ]]>
+        {% endif %}
          {% endif %}{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
