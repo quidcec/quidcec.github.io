@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simbiosi entre la cultura i l’empresa 
+title: Simbiosi entre la cultura i l'empresa 
 github_username: pepmares
 category: articles 
 og: true
