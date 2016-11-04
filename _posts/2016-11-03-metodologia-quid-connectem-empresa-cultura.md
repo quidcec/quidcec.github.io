@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metodoliga Quid, connectem empresa i cultura
+title: Metodologia Quid, connectem empresa i cultura
 github_username: pepmares
 category: articles 
 og: true
