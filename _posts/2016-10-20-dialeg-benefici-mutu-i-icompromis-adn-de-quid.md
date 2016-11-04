@@ -3,7 +3,7 @@ redirect_from:
   - /2016/10/20/diale-benefici-mutu-i-icompromis-adn-de-quid.html
   - /articles/2016/10/20/diale-benefici-mutu-i-icompromis-adn-de-quid.html
 layout: post
-title: Diàleg, benefici mutu i compromís, l’ADN de QUID
+title: Diàleg, benefici mutu i compromís, l'ADN de QUID
 github_username: pepmares
 category: articles
 og: true
