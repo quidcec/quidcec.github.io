@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: win-Win-Cultura-Empresa-RSC.png
+image: win-win-cultura-empresa-rsc.png
 image-caption: 
 ---
 
