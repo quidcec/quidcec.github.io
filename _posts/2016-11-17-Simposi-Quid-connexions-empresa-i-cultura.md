@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image:Simposi-Quid-connexions-empresa-i-cultura.jpg
+image: Simposi-Quid-connexions-empresa-i-cultura.jpg 
 image-caption: 
 ---
 
