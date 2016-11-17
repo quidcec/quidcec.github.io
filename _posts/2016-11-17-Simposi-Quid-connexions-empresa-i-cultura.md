@@ -15,15 +15,20 @@ En una sessió formativa explarem els usus i beneficis que pot aportar la cultur
 
 **PROGRAMA**
 10.00h Presentació jornada 
-( Pep Marés, director i consultor de Quid )
+(Pep Marés, director i consultor de Quid)
+
 10.00 a 10.30h Màrketing experencial: del producte a la cultura
-( Josep Ma Herms, Especialitzat en màrqueting experiencial. )
+(Josep Ma Herms, Especialitzat en màrqueting experiencial)
+
 10.30 a 10.45h Cooperació ens públics i agents privats.- Agència Catalana del Patrimoni Cultural
-(Sònia Blasco, Responsable de Màrqueting i Comunicació )
+(Sònia Blasco, Responsable de Màrqueting i Comunicació)
+
 10.45 a 11.00h ESMORZAR
+
 11.10 a 12.30h Solucions culturals a problemes empresarials
 ( Alexandra Masó, Consultora estratègica de mercat)
-12.30h Clausura jornada ( Pep Marés )
+
+12.30h Clausura jornada (Pep Marés)
 
 <a href="https://www.ticketea.com/entradas-taller-connexionsempresacultura/" title="Registrarse para el evento">
               <img src="https://d18t9gwja9h9h.cloudfront.net/assets/images/buttons/es/registeronline.png" alt="Registrarse para el evento" />
