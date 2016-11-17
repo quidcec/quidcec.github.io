@@ -13,7 +13,7 @@ L’aliança entre la cultura i l’empresa, es mostra cada dia més com una sim
 
 En una sessió formativa explarem els usus i beneficis que pot aportar la cultura al món empreserial. Us esperem el proper divendres 16 de desembre a partir de les 10.00h al Convent Sant Agustí de Barcelona, al carrer comerç 36. 
 
-*** PROGRAMA
+### PROGRAMA
 
 10.00h **Presentació jornada**
 
