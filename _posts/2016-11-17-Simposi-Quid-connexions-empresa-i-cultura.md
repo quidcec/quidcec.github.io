@@ -11,7 +11,7 @@ image-caption:
 
 L’aliança entre la cultura i l’empresa, es mostra cada dia més com una simbiosi i, com a tal, mútuament beneficiosa. Quid un projecte per millorar la comunicació i la imatge de l’empresa. Un espai de trobada on iniciar i consolidar vincles de confiança entre l’empresa i la cultura.
 
-En una sessió formativa explarem els usos i beneficis que pot aportar la cultura al món empreserial. 
+En una sessió formativa explicarem els usos i beneficis que pot aportar la cultura al món empreserial. 
 
 Us esperem el proper divendres 16 de desembre a partir de les 10.00h al Convent Sant Agustí de Barcelona, al carrer comerç 36. 
 
