@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: win-win-empresa-cultura.png
+image: Simposi-Quid-connexions-empresa-i-cultura.png
 image-caption: 
 ---
 
