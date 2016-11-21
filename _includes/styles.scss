@@ -242,7 +242,6 @@ header.site-header {
     background-color: #ccc;
   }
   .item a {
-    color: #333;
     display: block;
     font-weight: 400;
     letter-spacing: 0.1px;
@@ -251,12 +250,18 @@ header.site-header {
     font-size: 13px;
     -webkit-tap-highlight-color: #e5e5e5;
     text-decoration: none;
-  }
-  .item a:hover {
-    text-decoration: underline;
-  }
-  .item a:active {
-    background-color: #eee;
+    color: #999999;
+    &:hover {
+      color: #333333;
+      text-decoration: underline;
+    }
+    &.active {
+      font-weight: bold;      
+      color: #333333; 
+    }
+    &a:active {
+      background-color: #eee;
+    }
   }
   .item amp-img {
     margin-left: 4px;
