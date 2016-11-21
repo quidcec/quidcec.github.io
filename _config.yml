@@ -15,7 +15,7 @@ description-exits: >
   Casos d'èxit de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.quid.cat" # the base hostname & protocol for your site
+url: "https://www.quid.cat" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 paginate_path: "/blog/page:num/"
 assets-images: /assets/images/
