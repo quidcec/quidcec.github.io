@@ -6,9 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: QUID blog
+title: QUID [Connecten Empresa i Cultura]
+title-blog: QUID Blog
 email: inof@quid.cat
 description: >
+  Quid és diàleg, és a dir, una relació en què l’emissor i el receptor intercanvien missatges alternativament. Quid és benefici mutu, una estratègia que té com a objectiu que totes les parts surtin beneficiades
+description-blog: >
   Actualitat i entrades al voltat de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
 title-exits: QUID èxits
 description-exits: >
