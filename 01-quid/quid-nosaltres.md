@@ -4,6 +4,7 @@ title: Nosaltres
 permalink: /01-quid/nosaltres/
 image: 01-quid-qui-som-nosaltres-w525.jpg
 image-w1050: 01-quid-qui-som-nosaltres.jpg
+destacat: "Pep Mares, Ramon Gil i Lluís Puigvert"
 subsection: "0101"
 ---
 

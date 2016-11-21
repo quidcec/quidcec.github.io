@@ -2,14 +2,15 @@
 layout: page
 title: Productes
 permalink: /03-serveis/productes/
+destacat: "Exposició. Gent Gran Font de Saviesa. Projecte Poetopía"
 subsection: "0302"
 ---
 
-### Exposició. Gent Gran Font de Saviesa 
+### Exposició. Gent Gran Font de Saviesa
 
-<amp-img class="img-site-banner" width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}03-serveis-productes-gent-gran.jpg"></amp-img>
+Aquest projecte impulsa el reconeixement de la gent gran com a agents de coneixement. Mémora ofereix la possibilitat d'exposar-la. Un projecte per fomentar l'intercanvi de coneixements i experiències entre persones de diferents generacions, àmbits i entorns culturals. Per això posem a la vostra disposició aquesta mostra a les institucions i als professionals i voluntaris que treballen o col·laboren en residències de gent gran, escoles, aules de teatre, museus, equipaments cívics, biblioteques, etc. 
 
-Aquest projecte impulsa el reconeixement de la gent gran com a agents de coneixement. Mémora ofereix la possibilitat d'exposar-la. Un projecte per fomentar l'intercanvi de coneixements i experiències entre persones de diferents generacions, àmbits i entorns culturals. Per això posem a la vostra disposició aquesta mostra a les institucions i als professionals i voluntaris que treballen o col·laboren en residències de gent gran, escoles, aules de teatre, museus, equipaments cívics, biblioteques, etc.  
+<amp-img class="img-site-banner" width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}03-serveis-productes-gent-gran.jpg"></amp-img>  
 
 ### Projecte Poetopía 
 

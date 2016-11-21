@@ -4,6 +4,7 @@ title: "[01] QUID"
 permalink: /01-quid/
 image: 01-quid-qui-som-w525.jpg
 image-w1050: 01-quid-qui-som.jpg
+destacat: "Som un grup de professionals de la comunicació i el disseny, la gestió cultural i les noves tecnologies que el destí ha unit..."
 section: 1
 ---
 

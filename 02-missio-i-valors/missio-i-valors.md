@@ -2,6 +2,7 @@
 layout: page
 title: "[02] Missió i valors"
 permalink: /02-missio-i-valors/
+destacat: "Treballem perquè les organitzacions tinguin un cicle de vida equilibrat i sostenible, a través d'una direcció estratègica personalitzada i amb ànima"
 section: 2
 ---
 

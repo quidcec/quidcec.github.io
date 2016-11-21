@@ -2,14 +2,15 @@
 layout: page
 title: Programes Quid
 permalink: /03-serveis/programes-quid/
+destacat: "Programa de comunicació, de presència, de diàleg, de creació i de patrocini."
 subsection: "0301"
 ---
 
 ### Programa de comunicació
 
-<amp-img class="img-site-banner" width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}03-serveis-programes-comunicacio.jpg"></amp-img>
-
 El programa disposa de diferents elements i accions per facilitar la comunicació empresarial al seu mercat potencial, així com per facilitar el posicionament de l'empresa com a empresa social i culturalment involucrada i responsable amb l'entorn de mercat on opera.
+
+<amp-img class="img-site-banner" width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}03-serveis-programes-comunicacio.jpg"></amp-img>
 
 ### Programa de presència
 

@@ -4,6 +4,7 @@ title: La Cultura com a Vehicle i Eix Vertebrador
 permalink: /04-metodologia/la-cultura-com-a-eix-vertebrador/
 image: 04-metodologia-cultura-eix-vertebrador-w525.jpg
 image-w1050: 04-metodologia-cultura-eix-vertebrador.jpg
+destacat: "Mancomunar és... un verb que ens recorda que les aliances si no hi són s'inventen, es transformen i s'imaginen."
 subsection: "0402"
 ---
 

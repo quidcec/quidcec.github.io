@@ -4,6 +4,7 @@ title: Socis estratègics i Partners
 permalink: /01-quid/partners/
 image: 01-quid-qui-som-partners-w525.jpg
 image-w1050: 01-quid-qui-som-partners.jpg
+destacat: "Agencia Catalana del Patrimoni Cultural, Xarxa de Museu de Girona, Oxygen, Sid Publicitat, Marta Carreté i Alexandra Masó"
 subsection: "0102"
 ---
 
