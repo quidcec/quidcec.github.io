@@ -2,8 +2,8 @@
 ---
 
 {
-  "name": "quid",
-  "short_name": "quid",
+  "name": "QUID",
+  "short_name": "QUID",
   "icons": [{
         "src": "{{ site.assets-images }}touch/icon-128x128.png",
         "sizes": "128x128",
