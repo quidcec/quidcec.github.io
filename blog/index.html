@@ -1,0 +1,100 @@
+---
+layout: default
+og: true
+og-type: website
+class: ""
+title: "Blog"
+---
+
+<main class="content" role="main">
+
+  <header class="blog-header">
+      <h1 class="blog-title">{{ site.title }}</h1>
+      <h2 class="blog-description">{{ site.description }}</h2>
+  </header>
+
+  <div class="cf frame">
+    {% for post in paginator.posts limit:1 offset:0 %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+      {% if post.image %}
+          <a href="{{ site.baseurl }}{{ post.url }}"><amp-img width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}"></amp-img></a>
+      {% endif %}
+          <header class="post-header">
+            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+          </header>
+          <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          </section>
+          <div class="post-meta">
+            <time datetime="{{ post.date }}">{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Gener
+  {% when '2' %}Febrer
+  {% when '3' %}Març
+  {% when '4' %}Abril
+  {% when '5' %}Maig
+  {% when '6' %}Juny
+  {% when '7' %}Juliol
+  {% when '8' %}Agost
+  {% when '9' %}Setembre
+  {% when '10' %}Octubre
+  {% when '11' %}Novembre
+  {% when '12' %}Decembre
+{% endcase %}
+{{ post.date | date: "%Y" }}</time>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+    {% for post in paginator.posts offset:1 %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+          <header class="post-header">
+            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+          </header>
+          <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          </section>
+          <div class="post-meta">
+            <time datetime="{{ post.date }}">{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Gener
+  {% when '2' %}Febrer
+  {% when '3' %}Març
+  {% when '4' %}Abril
+  {% when '5' %}Maig
+  {% when '6' %}Juny
+  {% when '7' %}Juliol
+  {% when '8' %}Agost
+  {% when '9' %}Setembre
+  {% when '10' %}Octubre
+  {% when '11' %}Novembre
+  {% when '12' %}Decembre
+{% endcase %}
+{{ post.date | date: "%Y" }}</time>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+    <a class="newer-posts" href="{{ paginator.previous_page_path }}">&larr; Pàgina anterior</a>
+  {% else %}
+    <a class="newer-posts disabled">&larr; Pàgina anterior</a>
+  {% endif %}
+  <span class="page_number ">Pàgina: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a class="older-posts" href="{{ paginator.next_page_path }}">Següent pàgina &rarr;</a>
+  {% else %}
+    <a class="older-posts disabled ">Següent pàgina</a>
+  {% endif %}
+  </nav>
+
+</main>
+
+{% include footer.html %}

@@ -7,7 +7,7 @@
       {% endif %}
   <meta property="og:type" content="{{ page.og-type }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      {% if page.category == 'articles' or page.category == 'actualitat' %}
+      {% if page.category == 'articles' or page.category == 'actualitat' or page.category == 'casos-d-exit' %}
       <meta property="og:image" content="{{ site.url }}{{ site.assets-images }}{{ page.image }}" />
       <meta property="og:image:width" content="600" />      
       <meta property="og:image:height" content="300" />

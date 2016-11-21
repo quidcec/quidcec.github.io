@@ -1,15 +1,48 @@
 ---
 layout: default
 ---
+
+{% if page.image %}
+  {% include page-image-banner.html %}
+{% endif %}
+
 <main class="content" role="main">
-  <article class="post">
+  <article class="post post-page">
+    {% if page.section or page.subsection or page.collection %}
+    <section class="post-breadcrumb">
+      {% include breadcrumb.html %}
+    </section>
+    <hr/>
+    {% endif %}
     <div class="post-meta">
       <h1 class="post-title">{{ page.title }}</h1>
     </div>
     <section class="post-content">
       <a name="topofpage"></a>
+      {% if page.destacat %}
+      <div class="amp-ad-container">
+        <blockquote>
+          <p>{{ page.destacat }}</p>
+        </blockquote>
+      </div>
+      {% endif %}
       {{content}}
     </section>
+    {% if page.category == 'casos-d-exit' %}
+    <footer class="post-footer">
+      <section class="share">
+        <p><a class="icon" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.id }}&title={{ page.title | cgi_escape }}&source={{ site.url }}">
+          Share on
+          {% include icon-linkedin.html %}
+        </a></p>
+        <p><a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+          Share on 
+          {% include icon-twitter.html %}
+        </a></p>
+      </section>
+        {% include related-exits.html %}      
+    </footer>
+    {% endif %}
   </article>
 </main>
 

@@ -1,0 +1,26 @@
+ 
+- img_800: "01-espai-de-trobada-quid-home.jpg"
+  img_525: "01-espai-de-trobada-quid-home-w525.jpg"
+  description: "Quid espai de trobada per crear vincles de confiança entre l’empresa i la cultura."
+  id: "01"
+
+- img_800: "02-aportar-valor-quid-home.jpg"
+  img_525: "02-aportar-valor-quid-home-w525.jpg"
+  description: "El gran repte de les empreses actuals és aportar valor a la societat. La cultura és un canal per aconseguir-ho."
+  id: "02"
+
+- img_800: "03-fer-creixer-quid-home.jpg"
+  img_525: "03-fer-creixer-quid-home-w525.jpg"
+  description: "La cultura és un vehicle idoni per fer créixer els teus contactes comercials i institucionals."
+  id: "03"
+
+- img_800: "04-millorar-quid-home.jpg"
+  img_525: "04-millorar-quid-home-w525.jpg"
+  description: "Quid per millorar la comunicació i la imatge de l’empresa"
+  id: "04"
+
+- img_800: "05-think-win-win-quid-home.jpg"
+  img_525: "05-think-win-win-quid-home-w525.jpg"
+  description: "Think win-win"
+  id: "05"
+

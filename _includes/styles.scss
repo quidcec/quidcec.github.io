@@ -91,7 +91,7 @@ $grey-color:       #828282;
 }
 
 amp-img {
-  background-color: grey;
+  background-color: #e2e2e2;
 }
 
 .cf {
@@ -105,6 +105,11 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
+    @content;
+  }
+}
+@mixin respond-to-min($breakpoint) {
+  @media only screen and (min-width: $breakpoint + px) {
     @content;
   }
 }
@@ -132,6 +137,20 @@ body {
   font-feature-settings: "liga", "dlig";
 }
 
+.bar {
+  position: relative;
+  width: 100%;
+  margin: 16px auto 0 auto;
+  @include box-sizing(border-box);
+  @include respond-to(800) {
+    padding: 0 $rs * 1;
+  }
+  color: #f6c33f;
+  background-color: #000000;
+  text-align: center;
+  top:-16px;;
+}
+
 .site-header {
   position: relative;
   width: 100%;
@@ -141,12 +160,10 @@ body {
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
-
-  .page-links {
+  .post-links, .page-links {
       display: block;
       position: absolute;
       top: 10px;
-      right: $rs;
       font-weight: 200;
       font-style: normal;
       font-size: 18px;
@@ -158,9 +175,159 @@ body {
         &:hover {
           color: #333333;
         }
+        &.active {
+          font-weight: bold; 
+        }
       }
+  }  
+  @include respond-to(500) {
+    .post-links, .page-links {
+      font-size: 16px;
+    }
+  }
+  .page-links {
+    left: 134px;
+  }
+  .post-links {
+    right: 16px;
   }
 
+}
+
+header.site-header {
+  .button {
+    margin-left: 16px;
+    padding: 0px;
+    height: 40px;
+    min-width: 40px;
+    display: block;
+    float: left;
+  }
+  .button > amp-img {
+    margin: 8px;
+    float: left;
+    cursor: pointer;
+  }
+  .button > span {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+  }
+  #hamburger {
+    align-self: flex-start;
+    padding: 8px;
+    margin-left: -16px;
+    margin-top: 4px;
+    float: right;
+    amp-img {
+      background-color: #f6c33f;
+    }
+  }
+
+}
+
+/* sidebar menu */
+#drawermenu {
+  width: 320px;
+  background-color: white;
+  .close {
+    float:right;
+    top: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+  }
+  .close:hover {
+    background-color: #ccc;
+  }
+  .item a {
+    color: #333;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding: 10px 24px 10px 32px;
+    white-space: nowrap;
+    font-size: 13px;
+    -webkit-tap-highlight-color: #e5e5e5;
+    text-decoration: none;
+  }
+  .item a:hover {
+    text-decoration: underline;
+  }
+  .item a:active {
+    background-color: #eee;
+  }
+  .item amp-img {
+    margin-left: 4px;
+    vertical-align: text-bottom;
+  }
+  .topheader {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .home {
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: rgba(0,0,0,.87);
+    padding-left: 0px;
+  }
+  amp-img {
+    background-color: #f6c33f;
+  }
+}
+
+.amp-mode-touch #drawermenu .item a {
+  padding-top: 18px;
+  padding-bottom: 17px;
+}
+
+.site-banner {
+  position: relative;
+  width: 100%;
+  max-width: 525px;
+  max-height: 525px;
+  height: 100vw;
+  margin: 16px auto 0 auto;
+  @include box-sizing(border-box);
+  .carousel2 .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 8px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      max-height: 30%;
+      font-size: 2em;
+      font-weight: lighter;
+  }
+  @include respond-to(800) {
+    .carousel2 .caption {
+      font-size: 1.5em;
+    }
+  }
+  @include respond-to(525) {
+    .carousel2 .caption {
+      font-size: .75em;
+    }
+  }
+  @include respond-to-min(525) {
+    max-width: 1225px;
+  }
+
+}
+
+.site-banner-full-width {
+  max-width: 100%;
+}
+
+.img-site-banner {
+    border-bottom: 10px solid #f6c33f; 
 }
 
 .blog-header {
@@ -199,13 +366,58 @@ body {
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
-
   article {
     padding: 20px 0;
     border-bottom: 1px solid #f2f2f0;
     &:last-child {
       border-bottom: 0px;
     }
+
+    .amp-ad-container {
+      background: #eee;
+      border-top: 0.0625rem solid #dfdfdf;
+      float: right;
+      height: 286px;
+      width: 316px;
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .amp-ad-container-half-height {
+      height: 143px;
+    }
+    .amp-ad-container > span {
+      position: relative;
+      font-size: 12px;
+      top: -4px;
+      left: 8px;
+      color: #666;
+    }
+    .amp-ad-container blockquote {
+      margin-left: 0px;
+      padding-right: 20px;
+      p {
+        font-size: 1.5em;
+        font-style: italic;
+      }
+    }
+  @include respond-to(500) {
+    .amp-ad-container {
+      float: none;
+    }
+  }
+  @include respond-to(320) {
+    .amp-ad-container {
+      width: 240px;
+      blockquote {
+        p {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
     .post-title {
       letter-spacing: -0.02em;
       font-weight: 700;
@@ -240,6 +452,12 @@ body {
         &:hover {
           text-decoration: underline;
         }
+      }
+    }
+    .post-breadcrumb {
+      font-weight: 700; 
+      a {
+        font-weight: 400;
       }
     }
   }
@@ -293,6 +511,15 @@ body {
 }
 
 .post {
+  hr {
+    border: 0;
+    padding: 0;
+    display: block;
+    width: 15%;
+    margin: 30px auto;
+    border: 0px solid #dddddd;
+    border-top: 1px solid #dddddd;
+  }
   .post-meta {
     font-family: $font-sans;
   }
@@ -328,8 +555,7 @@ body {
     font-family: $font-sans;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
-
+  }  
   .post-content {
     width: 100%;
     font-family: $font-serif;
@@ -548,6 +774,33 @@ body {
         }
       }
     }
+  }
+}
+
+
+.post-two-column {
+  width: 48%;
+  margin:0 1%;
+  @include box-sizing(border-box);
+  @include respond-to(500) {
+    width: 100%;
+  }
+}
+.post-two-column:nth-child(odd) {
+  float: left;
+  clear: both;
+}
+.post-two-column:nth-child(even) {
+  float: right;
+}
+
+.post-page {
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f6c33f;
+    vertical-align: middle;
+    color: #ffffff!important;
   }
 }
 

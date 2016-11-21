@@ -1,0 +1,12 @@
+<section class="site-banner">
+    <div>
+        {% if page.image-caption != null %}
+          <figure>
+            <amp-img class="img-site-banner" width="1050" height="525" layout="fill" alt="{{ page.title }}" src="{{ site.assets-images }}{{ page.image }}"></amp-img>
+            <figcaption>{{ page.image-caption }}</figcaption>
+          </figure>
+        {% else %}
+          <amp-img class="img-site-banner" width="1050" height="525" layout="fill" alt="{{ page.title }}" src="{{ site.assets-images }}{{ page.image }}" {% if page.image-w1050 %}srcset="{{ site.assets-images }}{{ page.image-w1050 }} 800w,{{ site.assets-images }}{{ page.image }} 525w"{% endif %}></amp-img>
+        {% endif %}
+    </div>
+</section>

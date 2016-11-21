@@ -10,11 +10,18 @@ title: QUID blog
 email: inof@quid.cat
 description: >
   Actualitat i entrades al voltat de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
+title-exits: QUID èxits
+description-exits: >
+  Casos d'èxit de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.quid.cat" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
+paginate_path: "/blog/page:num/"
 assets-images: /assets/images/
+collections:
+  casos-d-exits:
+    output: true
 
 name: '<strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]'
 bio: >
@@ -22,6 +29,11 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: quid_CEC
 github_username:  freecates
+linkedin_page: https://www.linkedin.com/company/programa-quid
+address:
+  addressLocality: "Sabadell"
+  postalCode: "08202"
+  streetAddress: "Carrer Sant Francesc, 16"
 
 # Build settings
 markdown: kramdown
