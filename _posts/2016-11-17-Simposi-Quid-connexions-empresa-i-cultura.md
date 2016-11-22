@@ -38,7 +38,5 @@ Us esperem el proper divendres 16 de desembre a partir de les 10.00h al Convent 
 
 (Pep Marés, director i consultor de Quid)
 
-<a href="https://www.ticketea.com/entradas-taller-connexionsempresacultura/" title="Registrarse para el evento">
-              <img src="https://d18t9gwja9h9h.cloudfront.net/assets/images/buttons/es/registeronline.png" alt="Registrarse para el evento" />
-            </a>
+<a href="https://www.ticketea.com/entradas-taller-connexionsempresacultura/" title="Registrarse para el evento"><amp-img width="250" height="90" src="https://d18t9gwja9h9h.cloudfront.net/assets/images/buttons/es/registeronline.png" alt="Registrarse para el evento"></amp-img></a>
 
