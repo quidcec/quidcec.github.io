@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: Usos-i-beneficis-comunicació.jpg 
+image: usos-i-beneficis-comunicacio.jpg 
 image-caption: 
 ---
 

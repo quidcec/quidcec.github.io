@@ -19,7 +19,7 @@ title: "Home"
 
     <div class="cf frame">
       {% for casos-d-exit in site.casos-d-exits limit:5 offset:0 %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <article class="cf post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
         {% if casos-d-exit.image %}
         <div class="amp-ad-container amp-ad-container-half-height">
@@ -31,7 +31,6 @@ title: "Home"
             </header>
           </div>
         </article>
-        <br style="clear:both" />
       {% endfor %}
     </div>
 
