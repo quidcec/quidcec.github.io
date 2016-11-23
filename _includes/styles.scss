@@ -466,6 +466,27 @@ header.site-header {
       }
     }
   }
+  .bg-box-home:nth-child(odd) {
+      background-color: #f6c33f;
+    }
+  .bg-box-home:nth-child(even) {
+    background-color: #eeeeee;
+  }
+  .bg-box-home {
+    .post-title {
+      padding-left: .5em; 
+    }
+    .amp-ad-container {
+      background: none;
+    }
+  }
+  .fade {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   }
+  .fade:hover {
+    opacity: 0.5;
+    }
 }
 
 .post-template .content {
