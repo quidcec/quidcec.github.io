@@ -6,6 +6,7 @@ category: casos-d-exit
 collection: casos-d-exits 
 og: true
 og-type: article
+image-w300: 05-casos-d-exit-gent-gran-font-de-saviesa-w300.jpg
 image-w1050: 05-casos-d-exit-gent-gran-font-de-saviesa.jpg
 image: 05-casos-d-exit-gent-gran-font-de-saviesa-w525.jpg
 image-caption: 

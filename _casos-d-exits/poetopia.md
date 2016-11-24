@@ -6,6 +6,7 @@ category: casos-d-exit
 collection: casos-d-exits 
 og: true
 og-type: article
+image-w300: 03-casos-d-exit-poetopia-w300.jpg
 image-w1050: 03-casos-d-exit-poetopia.jpg
 image: 03-casos-d-exit-poetopia-w525.jpg
 image-caption: 

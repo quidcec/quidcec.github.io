@@ -6,6 +6,7 @@ category: casos-d-exit
 collection: casos-d-exits 
 og: true
 og-type: article
+image-w300: 04-casos-d-exit-mte-w300.jpg
 image-w1050: 04-casos-d-exit-mte.jpg
 image: 04-casos-d-exit-mte-w525.jpg
 image-caption: 

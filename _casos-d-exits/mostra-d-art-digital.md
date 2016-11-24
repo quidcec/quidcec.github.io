@@ -6,6 +6,7 @@ category: casos-d-exit
 collection: casos-d-exits 
 og: true
 og-type: article
+image-w300: 02-casos-d-exit-mostra-art-digital-w300.jpg
 image-w1050: 02-casos-d-exit-mostra-art-digital.jpg
 image: 02-casos-d-exit-mostra-art-digital-w525.jpg
 image-caption: 
