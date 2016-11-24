@@ -319,6 +319,7 @@ header.site-header {
   @include respond-to(525) {
     .carousel2 .caption {
       font-size: .75em;
+      background: rgba(0, 0, 0, 0.8);
     }
   }
   @include respond-to-min(525) {
