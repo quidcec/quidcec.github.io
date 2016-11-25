@@ -4,7 +4,7 @@ title: La Pàgina en Blanc
 permalink: /04-metodologia/la-pagina-en-blanc/
 image: 04-metodologia-pagina-en-blanc-w525.jpg
 image-w1050: 04-metodologia-pagina-en-blanc.jpg
-destacat: "És ben sabut, per estudiants, escriptors, dibuixants o investigadors, que no hi ha res més temible o més il·lusionant que una pàgina en blanc."
+destacat: "Davant d’un problema, per Quid la pàgina en blanc és el punt de partida."
 subsection: "0401"
 ---
 

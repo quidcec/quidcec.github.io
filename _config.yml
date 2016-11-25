@@ -12,10 +12,10 @@ email: inof@quid.cat
 description: >
   Quid és diàleg, és a dir, una relació en què l’emissor i el receptor intercanvien missatges alternativament. Quid és benefici mutu, una estratègia que té com a objectiu que totes les parts surtin beneficiades. Quid és compromís, és a dir, una paraula donada, un benefici acceptat per a la millora.
 description-blog: >
-  Actualitat i entrades al voltat de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
+  Actualitat i entrades al voltat de <strong>QUID</strong><br/>[CONNECTEM EMPRESA I CULTURA]
 title-exits: QUID èxits
 description-exits: >
-  Casos d'èxit de <strong>QUID</strong>[CONNECTEM EMPRESA I CULTURA]
+  Casos d'èxit de <strong>QUID</strong><br/>[CONNECTEM EMPRESA I CULTURA]
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.quid.cat" # the base hostname & protocol for your site

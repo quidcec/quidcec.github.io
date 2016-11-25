@@ -309,7 +309,7 @@ header.site-header {
       color: #ffffff;
       max-height: 30%;
       font-size: 2em;
-      font-weight: lighter;
+      font-weight: bold;
   }
   @include respond-to(800) {
     .carousel2 .caption {
