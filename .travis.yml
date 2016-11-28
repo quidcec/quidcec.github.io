@@ -21,4 +21,3 @@ install:
 
 script:
   - npm run gulp build
-  - htmlproofer ./_site
