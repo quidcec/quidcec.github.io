@@ -31,10 +31,10 @@ layout: default
     {% if page.category == 'casos-d-exit' %}
     <footer class="post-footer">
       <section class="share">
-        <p><a class="icon" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.id }}&title={{ page.title | cgi_escape }}&source={{ site.url }}">
+        <p><a class="icon"id="linkedin-link" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.id }}&title={{ page.title | cgi_escape }}&source={{ site.url }}">
           Share on
           {% include icon-linkedin.html %}
-        </a> |<a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+        </a> |<a class="icon"id="tweet-link" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
           Share on 
           {% include icon-twitter.html %}
         </a></p>
