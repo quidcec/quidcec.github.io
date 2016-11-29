@@ -17,5 +17,5 @@ Mancomunar i cooperar són verbs que ens recorden que les aliances si no hi són
 
 **En aquest procés Quid utilitza la cultura com a vehicle i com a eix vertebrador per aportar solucions als problemes empresarials**. La cultura per fer visible l’ànima de l’empresa, per innovar i donar valor marcant la diferència vers els competidors i per connectar amb els els grups d’interès.  
 
-La cultura et permet comunicar amb sensibilitat i exclusivitat. **La cultura conté un llenguatge universal que et permet transmetre i comunicar d'una manera eficaç els valors i el missatge de l'empresa** alhora que et permet millorar la percepció́ que té el mercat de l’empresa, ja que l'art està relacionat amb la sensibilitat, amb la cultura, amb l'exclusivitat.
+La cultura et permet comunicar amb sensibilitat i exclusivitat. **La cultura conté un llenguatge universal que et permet transmetre i comunicar d'una manera eficaç els valors i el missatge de l'empresa** alhora que et permet millorar la percepció́ que té el mercat de l’empresa, ja que l'art està relacionat amb la sensibilitat, amb la cultura, amb l'exclusivitat.Quid t'ofereix solucions culturals als problemes empresarials. 
 
