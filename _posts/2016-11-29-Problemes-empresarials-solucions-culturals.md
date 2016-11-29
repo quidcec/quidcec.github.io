@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: Problemes-empresarials-solucions-culturals.jpg
+image:Problemes-empresarials-solucions-culturals.jpg
 image-caption: 
 ---
 
