@@ -7,6 +7,7 @@
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>    
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,8 +67,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://www.quid.cat/01-quid/partners/",
   "headline": "Socis estratègics i Partners",
-  "datePublished": "2016-11-30T13:34:47+00:00",
-  "dateModified": "2016-11-30T13:34:47+00:00",
+  "datePublished": "2016-11-30T17:19:50+00:00",
+  "dateModified": "2016-11-30T17:19:50+00:00",
   "description": "Agencia Catalana del Patrimoni Cultural, Xarxa de Museu de Girona, Oxygen, Sid Publicitat, Marta Carreté i Alexandra Masó",
   "author": {
     "@type": "Person",
