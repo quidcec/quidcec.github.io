@@ -66,8 +66,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://www.quid.cat/01-quid/partners/",
   "headline": "Socis estratègics i Partners",
-  "datePublished": "2016-11-30T13:01:46+00:00",
-  "dateModified": "2016-11-30T13:01:46+00:00",
+  "datePublished": "2016-11-30T13:14:22+00:00",
+  "dateModified": "2016-11-30T13:14:22+00:00",
   "description": "Agencia Catalana del Patrimoni Cultural, Xarxa de Museu de Girona, Oxygen, Sid Publicitat, Marta Carreté i Alexandra Masó",
   "author": {
     "@type": "Person",
@@ -1206,7 +1206,7 @@ Especialista en comunicació i màrqueting estratègic. Llicenciada en Belles Ar
 }
 </script>
 </amp-analytics>
-    <amp-install-serviceworker src="/sw.js"
+    <amp-install-serviceworker src="/OneSignalSDKWorker.js"
       data-iframe-src="https://www.quid.cat/sw.html"
       layout="nodisplay">
 </amp-install-serviceworker>
