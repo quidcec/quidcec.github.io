@@ -11,7 +11,7 @@ bundle check || bundle install
 npm install
 
 # Build the site.
-gulp
+gulp build
 
 # Checkout master and remove everything
 git clone https://${GH_TOKEN}@github.com/quidcec/quidcec.github.io.git ../quidcec.github.io.git.master
