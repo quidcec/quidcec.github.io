@@ -1,42 +1,242 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>QUID [Connecten Empresa i Cultura]</title>
+    <description>Quid és diàleg, és a dir, una relació en què l’emissor i el receptor intercanvien missatges alternativament. Quid és benefici mutu, una estratègia que té com a objectiu que totes les parts surtin beneficiades. Quid és compromís, és a dir, una paraula donada, un benefici acceptat per a la millora.
+</description>
+    <link>https://www.quid.cat/</link>
+    <atom:link href="https://www.quid.cat/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Nov 2016 11:38:28 +0100</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 11:38:28 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{% if post.image %}{% if post.image-caption != null %}
+        <title>Problemes empresarials, solucions culturals</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Problemes empresarials, solucions culturals" src="/assets/images/problemes-empresarials-solucions-culturals.jpg" />
+        ]]>
+        
+         &lt;p&gt;&lt;strong&gt;Davant d’un problema, per Quid la pàgina en blanc és el punt de partida&lt;/strong&gt;. Aquest sistema permet detectar les necessitats que realment tenim, els problemes que realment ho són i descobrir els elements en què podem fer un salt més enllà del que mai ens haguéssim imaginat.&lt;/p&gt;
+
+&lt;p&gt;Sense necessitat de contractar personal, &lt;strong&gt;els diferents programes de Quid són adaptats i implementats segons les característiques i les necessitats de l’empresa&lt;/strong&gt;. El programa Quid s’ocupa de tot per mitjà d’un procés de validació i participació de l’equip directiu.&lt;/p&gt;
+
+&lt;p&gt;Mancomunar i cooperar són verbs que ens recorden que les aliances si no hi són s’inventen, es transformen i s’imaginen. Són verbs que indiquen la voluntat de compartir mitjans i objectius, recursos i accions, horitzons col•lectius i decisions individuals &lt;strong&gt;per arribar, en aquest cas, a un fi comú el benefici mutu a l’hora de resoldre problemes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;En aquest procés Quid utilitza la cultura com a vehicle i com a eix vertebrador per aportar solucions als problemes empresarials&lt;/strong&gt;. La cultura per fer visible l’ànima de l’empresa, per innovar i donar valor marcant la diferència vers els competidors i per connectar amb els els grups d’interès.&lt;/p&gt;
+
+&lt;p&gt;La cultura et permet comunicar amb sensibilitat i exclusivitat. &lt;strong&gt;La cultura conté un llenguatge universal que et permet transmetre i comunicar d’una manera eficaç els valors i el missatge de l’empresa&lt;/strong&gt; alhora que et permet millorar la percepció́ que té el mercat de l’empresa, ja que l’art està relacionat amb la sensibilitat, amb la cultura, amb l’exclusivitat.Quid t’ofereix solucions culturals als problemes empresarials.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 29 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/29/problemes-empresarials-solucions-culturals.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/29/problemes-empresarials-solucions-culturals.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Usos i beneficis, d’una comunicació vinculada a la cultura</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Usos i beneficis, d’una comunicació vinculada a la cultura" src="/assets/images/usos-i-beneficis-comunicacio.jpg" />
+        ]]>
+        
+         &lt;p&gt;Una comunicació vinculada a la cultura disposa de diferents elements i accions per facilitar la comunicació empresarial al seu mercat potencial, així com per facilitar el posicionament de l’empresa com a empresa social i culturalment involucrada i responsable amb l’entorn de mercat on opera.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La cultura com a eina de comunicació et permet generar recursos i continguts de qualitat i diferencials&lt;/strong&gt; que poden ser utilitzats tant el la comunicació en accions offline com en accions online. Un dels beneficis d’aquest programa és que  et permet treure un màxim rendiment a la inversió feta a l’hora que posiciona la marca com a socialment responsable donant suport a un sector el cultural amb un fort prestigi social.&lt;/p&gt;
+
+&lt;p&gt;En aquest sentit el programa de comunicació que ofereix Quid &lt;strong&gt;et permet crear un pla de comunicació i/o una acció comunicativa amb un triple benefici per a l’empresa&lt;/strong&gt;: d’efectivitat, d’estalvi i de posicionament. Una acció doncs garanteix èxit a l’hora de presentar un nou producte o acompanyar instauració de l’empresa en nous mercats i/o espais.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/22/Usos-i-beneficis-duna-comunicaci%C3%B3-vinculada-a-la-cultura.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/22/Usos-i-beneficis-duna-comunicaci%C3%B3-vinculada-a-la-cultura.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Simposi Quid, connexions empresa i cultura</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Simposi Quid, connexions empresa i cultura" src="/assets/images/Simposi-Quid-connexions-empresa-i-cultura.jpg" />
+        ]]>
+        
+         &lt;p&gt;L’aliança entre la cultura i l’empresa, es mostra cada dia més com una simbiosi i, com a tal, mútuament beneficiosa. Quid un projecte per millorar la comunicació i la imatge de l’empresa. Un espai de trobada on iniciar i consolidar vincles de confiança entre l’empresa i la cultura.&lt;/p&gt;
+
+&lt;p&gt;En una sessió formativa explarem els usos i beneficis que pot aportar la cultura al món empreserial.&lt;/p&gt;
+
+&lt;p&gt;Us esperem el proper divendres 16 de desembre a partir de les 10.00h al Convent Sant Agustí de Barcelona, al carrer comerç 36.&lt;/p&gt;
+
+&lt;h3 id=&quot;programa&quot;&gt;PROGRAMA&lt;/h3&gt;
+
+&lt;p&gt;10.00h &lt;strong&gt;Presentació jornada&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(Pep Marés, director i consultor de Quid)&lt;/p&gt;
+
+&lt;p&gt;10.00 a 10.30h &lt;strong&gt;Màrketing experencial: del producte a la cultura&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(Josep Ma Herms, Especialitzat en màrqueting experiencial)&lt;/p&gt;
+
+&lt;p&gt;10.30 a 10.45h &lt;strong&gt;Cooperació ens públics i agents privats.- Agència Catalana del Patrimoni Cultural&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(Sònia Blasco, Responsable de Màrqueting i Comunicació)&lt;/p&gt;
+
+&lt;p&gt;10.45 a 11.00h &lt;strong&gt;ESMORZAR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;11.10 a 12.30h &lt;strong&gt;Solucions culturals a problemes empresarials&lt;/strong&gt;
+( Alexandra Masó, Consultora estratègica de mercat)&lt;/p&gt;
+
+&lt;p&gt;12.30h &lt;strong&gt;Clausura jornada&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(Pep Marés, director i consultor de Quid)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ticketea.com/entradas-taller-connexionsempresacultura/&quot; title=&quot;Registrarse para el evento&quot;&gt;&lt;amp-img width=&quot;250&quot; height=&quot;90&quot; src=&quot;https://d18t9gwja9h9h.cloudfront.net/assets/images/buttons/es/registeronline.png&quot; alt=&quot;Registrarse para el evento&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 17 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/17/Simposi-Quid-connexions-empresa-i-cultura.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/17/Simposi-Quid-connexions-empresa-i-cultura.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Win win empresa i cultura</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Win win empresa i cultura" src="/assets/images/win-win-empresa-cultura.png" />
+        ]]>
+        
+         &lt;p&gt;El binomi empresa i cultura és un clar exemple de win win. &lt;strong&gt;L’estratègia win-win&lt;/strong&gt;, adreçada a un benefici principalment tangible encara que també emocional, és practicada a les sinergies de negoci entre empreses, sobretot entre professionals de forma directa i és un punt clau en els negocis i activitats de networking, ja que “una part aporta alguna cosa amb la qual guanyarà l’altra; però al seu torn rep el mateix favor” en aquest sentit &lt;strong&gt;és una estratègia que cal implementar i introduir a les relacions empresa i cultura&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Es fa necessari construir un espai de trobada on iniciar consolidar vincles de confiança entre els sectors cultural i empresarial&lt;/strong&gt; per així poder crear les condicions necessàries perquè els projectes culturals i els centres culturals accedeixin al finançament i a noves col•laboracions; per altra banda aquest espai suposa a les empreses noves formes de relacionar-se, obrir-se a nous públics així com nous continguts de comunicació en definitiva una situació de win win.&lt;/p&gt;
+
+&lt;p&gt;L’estratègia Win-Win &lt;strong&gt;és una tàctica que tracta d’aconseguir que totes les parts guanyin&lt;/strong&gt;, siguin empreses, distribuïdors, canals de venda i / o consumidors els implicats fomentem-la.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 15 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/15/win-win-empresa-cultura.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/15/win-win-empresa-cultura.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Empresa i cultura, connexions amb ànima</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Empresa i cultura, connexions amb ànima" src="/assets/images/win-win-cultura-empresa-rsc.png" />
+        ]]>
+        
+         &lt;p&gt;Actualment els ciutadans demanen un compromís a les empreses que es coneix com bé comú, i que va més enllà del que entenem per responsabilitat corporativa.&lt;/p&gt;
+
+&lt;p&gt;L’aliança entre la cultura i l’empresa, s’ha de mostrar com una simbiosi i, com a tal, mútuament beneficiosa. Però perquè perduri en el temps i incrementi els seus beneficis cal dotar aquesta aliança d’una ànima pròpia, un nou tret estratègic que afavoreixi la seva sostenibilitat. &lt;strong&gt;El repte és superar la simbiosi, el benefici mutu, i afrontar l’objectiu comú i que l’aliança aporti valor net i benefici al conjunt de la societat&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;El repte, doncs, és la sinceritat en l’aliança de les empreses amb la cultura -o la cooperació al desenvolupament, el medi ambient, o l’educació- perquè transcendeixi com un compromís estratègic estable i no impostat amb la bona marxa de la societat . &lt;strong&gt;El repte, insisteixo, és dotar aquesta aliança d’ànima&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/10/Empresa-i-cultura-connexions-amb-anima.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/10/Empresa-i-cultura-connexions-amb-anima.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Metodologia Quid, connectem empresa i cultura</title>
+        <description>
+        <![CDATA[
+          <img width="600" height="300" alt="Metodologia Quid, connectem empresa i cultura" src="/assets/images/connectar-empresa-cultura-rsc-metodologia.png" />
+        ]]>
+        
+         &lt;p&gt;&lt;strong&gt;Ajudem els nostres clients a posar en valor les seves accions i polítiques de Responsabilitat Social Corporativa&lt;/strong&gt;. Per això, ens hem especialitzat en diferents àrees que ens permeten oferir l’experiència necessària per dur a terme aquest objectiu: Aliances estratétigas, Comunicació, desenvolupament corporatiu, Estratègia &amp;amp; organització d’actes, Creacíó d’espais de diàleg amb grups d’interès, , Estudis i formació.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sense necessitat de contractar personal&lt;/strong&gt;, els diferents programes de Quid són adaptats i implementats segons les característiques i les necessitats de l’empresa. &lt;strong&gt;El programa Quid s’ocupa de tot per mitjà d’un procés de validació i participació de l’equip directiu&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Nov 2016 00:00:00 +0100</pubDate>
+        <link>https://www.quid.cat/articles/2016/11/03/metodologia-quid-connectem-empresa-cultura.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/11/03/metodologia-quid-connectem-empresa-cultura.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Simbiosi entre la cultura i l'empresa</title>
+        <description>
         <![CDATA[
             <figure>
-            <img width="600" height="300" alt="{{ post.title }}" src="{{ site.url }}{{ site.assets-images }}{{ post.image }}" />
-            <figcaption>{{ post.image-caption }}</figcaption>
+            <img width="600" height="300" alt="Simbiosi entre la cultura i l'empresa" src="https://www.quid.cat/assets/images/alianca-cultura-empresa-quid.jpg" />
+            <figcaption>http://www.publicdomainpictures.net/</figcaption>
           </figure>
         ]]>
-        {% else %}
-        <![CDATA[
-          <img width="600" height="300" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}" />
-        ]]>
-        {% endif %}
-         {% endif %}{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        
+         &lt;p&gt;&lt;strong&gt;L’aliança entre la cultura i l’empresa&lt;/strong&gt;, es mostra cada dia més com una simbiosi i, com a tal, mútuament beneficiosa. Però perquè perduri en el temps i incrementi els seus beneficis cal dotar aquesta aliança cada vegada més sòlida i estable d’una ànima pròpia, un nou tret estratègic que afavoreixi la seva sostenibilitat. El repte és superar la simbiosi, el benefici mutu, i afrontar l’objectiu comú que l’aliança aporti valor net i &lt;strong&gt;benefici al conjunt de la societat&lt;/strong&gt;. Els ciutadans demanen un compromís de les empreses amb el que es coneix com bé comú, i que va més enllà del que entenem per responsabilitat corporativa; encara més enllà del concepte &lt;strong&gt;“reputació corporativa”&lt;/strong&gt;, gairebé implícitament relacionat amb la percepció exterior. El repte, insisteixo, és dotar tot això d’ànima.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Oct 2016 00:00:00 +0200</pubDate>
+        <link>https://www.quid.cat/articles/2016/10/24/simbiosi-entre-la-cultura-i-l-empresa.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/10/24/simbiosi-entre-la-cultura-i-l-empresa.html</guid>
+        
+        
+        <category>articles</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Serveis QUID</title>
+        <description>
+        <![CDATA[
+            <figure>
+            <img width="600" height="300" alt="Serveis QUID" src="https://www.quid.cat/assets/images/Serveis-Quid-Retorn-social-corporatiu-cultura-empresa.png" />
+            <figcaption>Service / Four Blair Services Pvt. Ltd.</figcaption>
+          </figure>
+        ]]>
+        
+         &lt;p&gt;Ajudem els nostres clients a posar en valor les seves accions i polítiques de Responsabilitat Social Corporativa. Per això, ens hem especialitzat en diferents àrees que ens permeten oferir l’experiència necessària per dur a terme aquest objectiu: Aliances estratétigas, Comunicació, desenvolupament corporatiu, Estratègia &amp;amp; organització d’actes, Creacíó d’espais de diàleg amb grups d’interès, , Estudis i formació.-&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Oct 2016 00:00:00 +0200</pubDate>
+        <link>https://www.quid.cat/articles/2016/10/20/serveis.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/10/20/serveis.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Diàleg, benefici mutu i compromís, l'ADN de QUID</title>
+        <description>
+        <![CDATA[
+            <figure>
+            <img width="600" height="300" alt="Diàleg, benefici mutu i compromís, l'ADN de QUID" src="https://www.quid.cat/assets/images/quid-adn.jpg" />
+            <figcaption>3d render of dna structure, abstract background / fotolia</figcaption>
+          </figure>
+        ]]>
+        
+         &lt;p&gt;&lt;strong&gt;QUID&lt;/strong&gt; és diàleg és a dir una relació què l’emissor i el receptor intercanvien missatges alternativament i de forma recíproca. Quid és benefici mutu busquem aquella estratègia que té com a objectiu que totes les parts en surtin beneficiades. Quid és compromís  per això som la garantia per trobar solucions i millores a les demandes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;QUID&lt;/strong&gt; és un programa que connecta l’Empresa amb  cultura on ajudem els nostres clients a posar en valor les seves accions i polítiques de Comunicació i Responsabilitat Social Corporativa en aquest sentit ens hem especialitzat en diferents àrees que ens permeten oferir l’experiència necessària per dur a terme aquest objectiu: Aliances estratègiques, comunicació, desenvolupament corporatiu, estratègia i organització d’actes,  creació d’espais de diàleg amb grups d’interès estudis i formació.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Oct 2016 00:00:00 +0200</pubDate>
+        <link>https://www.quid.cat/articles/2016/10/20/dialeg-benefici-mutu-i-icompromis-adn-de-quid.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2016/10/20/dialeg-benefici-mutu-i-icompromis-adn-de-quid.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
   </channel>
 </rss>
