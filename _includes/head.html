@@ -31,9 +31,26 @@
     var OneSignal = window.OneSignal || [];
     OneSignal.push(["init", {
     appId: "85adb3aa-ffa1-42a5-bad3-22dac283cca3",
+    safari_wed_id: "web.onesignal.auto.2ccd5ae7-3528-4a1e-96f6-138881299499"
     autoRegister: false,
     notifyButton: {
-        enable: true
+        enable: true,
+        theme: 'inverse',
+        text: {
+            'tip.state.unsubscribed': 'Subscriu-te a les notificacions',
+            'tip.state.subscribed': "Estàs subscrit a les notificacions",
+            'tip.state.blocked': "Has bloqujat les notificacions",
+            'message.prenotify': "Clica per subscriure't a les notificacions",
+            'message.action.subscribed': "Gràcies per subscriure't",
+            'message.action.resubscribed': "Estàs subscrit a les notificacions",
+            'message.action.unsubscribed': "Ja no rebràs més notificacions",
+            'dialog.main.title': 'Gestiona les notificacions del web',
+            'dialog.main.button.subscribe': 'SUBSCRIU-TE',
+            'dialog.main.button.unsubscribe': "DÓNA'T DE BAIXA",
+            'dialog.blocked.title': 'Desbloqueja les notificacions',
+            'dialog.blocked.message': "Segueix aquestes instruccions per permetre les notificacions:"
+        }
+
     }
     }]);
   </script>
