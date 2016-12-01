@@ -24,6 +24,20 @@
   <script type="application/ld+json">
   {% include metadata.json %}
   </script>
+
+  {% if page.title == "Home" or page.title == "Blog" %}
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+    appId: "85adb3aa-ffa1-42a5-bad3-22dac283cca3",
+    autoRegister: false,
+    notifyButton: {
+        enable: true
+    }
+    }]);
+  </script>
+  {% endif %}
   
   <style amp-custom>
   {% capture include_to_scssify %}
