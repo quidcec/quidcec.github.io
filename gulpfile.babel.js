@@ -34,6 +34,12 @@ gulp.task('minify-images', () => {
     .pipe(gulp.dest('_site/assets'));
 });
 
+gulp.task('static-hash', () => {
+    return gulp.src('_site/**/OneSignalSDKWorker.js')
+        .pipe($.staticHash({asset: '_site'}))
+        .pipe(gulp.dest('_site'));
+});
+
 // Minify and add prefix to css.
 gulp.task('css', () => {
   const AUTOPREFIXER_BROWSERS = [
@@ -113,6 +119,7 @@ gulp.task('build', () =>
     'minify-html',
     'css',
     'generate-service-worker',
+    'static-hash',
     'minify-images'
   )
 );
