@@ -11,7 +11,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% if page.title == "Home" %} | {{ site.description }}{% endif %}{% if page.title == "Blog" %} | {{ site.description-blog }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% if page.title == "Home" %} | {{ site.description  | escape | strip_html }}{% endif %}{% if page.title == "Blog" %} | {{ site.description-blog | scape | strip_html }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     {% include metadata-og.html %}
