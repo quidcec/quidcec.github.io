@@ -1,8 +1,11 @@
+---
+---
+
 {
   "version": 1,
   "api_version": 1,
   "layout": {
-    "logo": "/assets/images/touch/yandex-browser-50x50.png",
+    "logo": "{{ site.assets-images }}touch/yandex-browser-50x50.png",
     "color": "#f6c33f",
     "show_title": true
   }
