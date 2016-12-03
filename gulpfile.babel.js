@@ -119,8 +119,7 @@ gulp.task('build', () =>
     'minify-html',
     'css',
     'generate-service-worker',
-    'static-hash',
-    'minify-images'
+    'static-hash'
   )
 );
 
