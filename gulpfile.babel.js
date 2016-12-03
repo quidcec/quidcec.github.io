@@ -34,6 +34,12 @@ gulp.task('minify-images', () => {
     .pipe(gulp.dest('_site/assets'));
 });
 
+gulp.task('static-hash', () => {
+    return gulp.src('_site/**/OneSignalSDKWorker.js')
+        .pipe($.staticHash({asset: '_site'}))
+        .pipe(gulp.dest('_site'));
+});
+
 // Minify and add prefix to css.
 gulp.task('css', () => {
   const AUTOPREFIXER_BROWSERS = [
@@ -97,7 +103,7 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = '_site';
 
   swPrecache.write(path.join(rootDir, 'sw.js'), {
-    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,json}'],
+    staticFileGlobs: [rootDir + '/**/*.{html,css,png,jpg,gif,json}'],
     stripPrefix: rootDir,
     replacePrefix: ''
   }, callback);
@@ -113,6 +119,7 @@ gulp.task('build', () =>
     'minify-html',
     'css',
     'generate-service-worker',
+    'static-hash',
     'minify-images'
   )
 );
