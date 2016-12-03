@@ -116,10 +116,10 @@ gulp.task('build', () =>
   runSequence(
     'scss',
     'jekyll-build',
-    'minify-html',
     'css',
     'generate-service-worker',
-    'static-hash'
+    'static-hash',
+    'minify-images'
   )
 );
 
@@ -148,7 +148,6 @@ gulp.task('deploy', () => {
     'before-gh-deploy',
     'scss',
     'jekyll-build',
-    'minify-html',
     'css',
     'generate-service-worker',
     'minify-images',
