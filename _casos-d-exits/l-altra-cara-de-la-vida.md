@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Grup Mémora. L'altra cada de la vida. Trencant el tabú de la mort
+title: Grup Mémora. L'altra cara de la vida. Trencant el tabú de la mort
 destacat: "... ha permès ampli ressò mediàtic a les més de 25 ciutats on la mostra ha estat present, amb un total de més de 50.000 visites..."
 category: casos-d-exit
 collection: casos-d-exits 
