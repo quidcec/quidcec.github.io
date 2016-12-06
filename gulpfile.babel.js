@@ -108,7 +108,7 @@ gulp.task('generate-service-worker', function(callback) {
       handler: 'cacheFirst',
       options: { cache: { name: 'amproject' } }
     }],
-    staticFileGlobs: [rootDir + '/**/*.{html,css,png,jpg,gif,json}'],
+    staticFileGlobs: [rootDir + '/**/*.{woff,html,css,png,jpg,gif,json}'],
     stripPrefix: rootDir,
     replacePrefix: ''
   }, callback);
