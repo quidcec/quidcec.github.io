@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: cultura-programa-de-presència.png
+image: cultura-programa-de-presencia.png
 image-caption: 
 ---
 
