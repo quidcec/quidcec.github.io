@@ -103,6 +103,11 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = '_site';
 
   swPrecache.write(path.join(rootDir, 'sw.js'), {
+    runtimeCaching: [{
+      urlPattern: /\.ampproject\.org\//,
+      handler: 'cacheFirst',
+      options: { cache: { name: 'amproject' } }
+    }],
     staticFileGlobs: [rootDir + '/**/*.{html,css,png,jpg,gif,json}'],
     stripPrefix: rootDir,
     replacePrefix: ''
