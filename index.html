@@ -50,7 +50,7 @@ title: "Home"
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
         {% if post.image %}
-            <a href="{{ site.baseurl }}{{ post.url }}"><amp-img width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}"></amp-img></a>
+            <a href="{{ site.baseurl }}{{ post.url }}"><amp-img class="img-site-banner-top" width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}"></amp-img></a>
         {% endif %}
             <header class="post-header">
               <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
