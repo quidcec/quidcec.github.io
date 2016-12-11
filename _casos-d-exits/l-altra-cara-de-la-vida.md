@@ -6,9 +6,9 @@ category: casos-d-exit
 collection: casos-d-exits 
 og: true
 og-type: article
-image-w300: 01-casos-d-exit-memora-w300.jpg
-image-w1050: 01-casos-d-exit-memora.jpg
-image: 01-casos-d-exit-memora-w525.jpg
+image-w300: 01-casos-d-exit-memora-dot-funerari-w300.jpg
+image-w1050: 01-casos-d-exit-memora-dot-funerari.jpg
+image: 01-casos-d-exit-memora-dot-funerari-w525.jpg
 image-caption: 
 ---
 
