@@ -24,7 +24,7 @@ Llicenciat en Història per la Universitat de Girona, Màster en gestió i comun
 
 Consultor TIC amb formació en MBA - i Business, Economics, Management and Internet Related Business per la Universitat Pompeu Fabra de Barcelona. És expert en comunicació corporativa i aplicació de tecnologia avançada de codi obert per potenciar els projectes i la identitat digital de les empreses i els professionals a la xarxa.
 
-### Lluis Puigvert 
+### Lluis Puigbert 
 
 <div class="amp-ad-container">
 <amp-img width="300" height="250" alt="{{ page.title }}" src="{{ site.assets-images }}lluis-puigvert-perfil-quid.jpg"></amp-img>
