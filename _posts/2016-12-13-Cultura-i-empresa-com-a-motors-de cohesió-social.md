@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: cultura i empesa com a motor de cohesió social.png
+image: cultura-i-empesa-com-a-motor-de-cohesio-social.png
 image-caption: 
 ---
 
