@@ -206,10 +206,13 @@ header.site-header {
     display: block;
     float: left;
   }
-  .button > amp-img {
+  .button > amp-img, small {
     margin: 8px;
     float: left;
     cursor: pointer;
+  }
+  small {
+    margin: 10px 0 0 0;
   }
   .button > span {
     display: inline-block;
@@ -224,8 +227,8 @@ header.site-header {
     margin-left: -16px;
     margin-top: 4px;
     float: right;
-    amp-img {
-      background-color: #f6c33f;
+    amp-img img {
+      background-color: #ffffff;
     }
   }
 
