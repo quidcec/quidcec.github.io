@@ -24,7 +24,7 @@ Les onze i mitja, era hora d’esmorzar i fer una petita parada tècnica (coffee
 
 Finalitzava la jornada amb una breu reflexió per part de l’equip Quid: l’empresa i la cultura són un binomi guanyador,  un win win clar on les dues parts en surten beneficiades. És per això que **esdevé necessari construir un espai de trobada. Un espai on iniciar i consolidar vincles de confiança entre els sectors cultural i empresarial**  per així poder crear les condicions necessàries per tal que els projectes culturals rebin suport del món empresarial a l’hora que el món empresarial pren la cultura com una eina beneficiosa. Un espai destinat a la creativitat per ampliar idees i per créixer com a grup amb el desenvolupament d’accions conjuntes. Al nostre entendre un model anglosaxó centrat en què les empreses puguin desenvolupar alternatives de futur a partir de la creació d’un banc d’idees per donar suport a les accions i entitats culturals. 
 
-En el decurs de la Jornada en Lluis Puigbert una de les ànimes de Quid va realitzar un breu resum en forma d'il·lustració 
+*En el decurs de la Jornada en Lluis Puigbert, una de les ànimes de Quid, va realitzar un breu resum en forma d'il·lustració*. 
 
 <amp-img width="600" height="300" layout="responsive" alt="{{ page.title }}" src="{{ site.assets-images }}quid-connectar-empresa-i-cultura-millorar-comunicacio-i-imatge-empresa.jpg"></amp-img>
 
