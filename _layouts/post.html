@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% if page.category == 'actualitat' %}
+  {% include page-image.html %}
+{% endif %}
 <main class="content" role="main">
   <article class="post">
     <div class="post-meta">
@@ -9,7 +12,7 @@ layout: default
 
     <section class="post-content">
       <a name="topofpage"></a>
-      {% if page.image %}
+      {% if page.category == 'articles' %}
         {% include page-image.html %}
       {% endif %}
       {{content}}
