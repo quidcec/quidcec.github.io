@@ -18,7 +18,7 @@ Les aliances estratègiques ens permeten idear i desenvolupar projectes conjunta
 <amp-img width="300" height="250" alt="{{ page.title }}" src="{{ site.assets-images }}oxygen.jpg"></amp-img>
 </div> 
 
-Oxygen és una empresa tecnològica i creativa amb seu a Barcelona amb més de 17 anys de trajectòria, en la qual hi ha experts en comunicació corporativa, disseny web, programació i sistemes informàtics, per a la realització de projectes ambiciosos a Internet. La nostra col·laboració amb aquesta empresa ens permet posar a disposició dels nostres clients un conjunt de serveis comunicatius i productes tecnològics avançats per potenciar la identitat digital corporativa a la xarxa.
+Oxygen és una empresa tecnològica i creativa amb seu a Barcelona amb més de 18 anys de trajectòria, en la qual hi ha experts en comunicació corporativa, disseny web, programació i sistemes informàtics, per a la realització de projectes ambiciosos a Internet. La nostra col·laboració amb aquesta empresa ens permet posar a disposició dels nostres clients un conjunt de serveis comunicatius i productes tecnològics avançats per potenciar la identitat digital corporativa a la xarxa.
 
 És una empresa petita per disseny. S'han resistit a la temptació de créixer més perquè creuen que treballen millor mantenint-se petits i mantenint la capacitat d'establir relacions a llarg termini amb els seus clients.
 
