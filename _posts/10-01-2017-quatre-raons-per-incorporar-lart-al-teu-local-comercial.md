@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles 
 og: true
 og-type: article
-image: Beneficis-i-usos-dunir-cultura-i-empresa.png
+image: quatre-raons-per-incorporar-lart-al-teu-local-comercial.jpg
 image-caption: 
 ---
 
