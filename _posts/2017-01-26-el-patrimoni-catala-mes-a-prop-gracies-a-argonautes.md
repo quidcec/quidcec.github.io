@@ -6,7 +6,7 @@ category: actualitat
 og: true
 og-type: article
 image-w1050: el-patrimoni-catala-mes-a-prop-gracies-a-argonautes.jpg
-image: 01-quid-connectar-empresa-i-cultura-millorar-comunicacio-i-imatge-empresa-w525.jpg
+image: el-patrimoni-catala-mes-a-prop-gracies-a-argonautes-w525.jpg
 image-caption: 
 ---
 
