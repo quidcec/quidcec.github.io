@@ -14,5 +14,5 @@ image-caption:
 
 Un conveni com aquest té molts beneficiaris, per una banda els alumnes que tindran accés als museus, jaciments i espais patrimonials de Catalunya, per una altra els educadors, perquè tindran una eina fonamental per contribuir en el desenvolupament dels nens i nenes, i també serà beneficiós pels espais de patrimoni cultural català, perquè els grups escolars són una part fonamental dels seus públics (representen un 17-18% del conjunt dels visitants dels museus, monuments i jaciments de la Generalitat).És doncs **un exemple d'èxit de col·laboració entre empresa i cultura, entre sector privat i sector públic un conveni Whin-Whin on hi surten beneficiats empresa, equipaments culturals i sobretot el alumnes**.
 
-Les escoles públiques classificades com de complexitat màxima pel Departament d’Ensenyament durant el curs 2016-2017 poden sol·licitar aquests ajuts a través de la web http://culturaeducacio.gencat.cat/argonautes, on trobaran les bases del programa i els formularis de sol·licitud.
+Les escoles públiques classificades com de complexitat màxima pel Departament d’Ensenyament durant el curs 2016-2017 poden sol·licitar aquests ajuts a través de la web [http://culturaeducacio.gencat.cat/argonautes](http://culturaeducacio.gencat.cat/argonautes), on trobaran les bases del programa i els formularis de sol·licitud.
 
