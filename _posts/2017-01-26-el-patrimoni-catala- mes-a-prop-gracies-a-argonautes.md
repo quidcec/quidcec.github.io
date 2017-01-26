@@ -5,7 +5,7 @@ github_username: pepmares
 category: actualitat 
 og: true
 og-type: article
-image-w1050: 01-quid-connectar-empresa-i-cultura-millorar-comunicacio-i-imatge-empresa.jpg
+image-w1050: el-patrimoni-catala-mes-a-prop-gracies-a-argonautes.jpg
 image: 01-quid-connectar-empresa-i-cultura-millorar-comunicacio-i-imatge-empresa-w525.jpg
 image-caption: 
 ---
