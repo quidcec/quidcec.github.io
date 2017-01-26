@@ -16,8 +16,6 @@ image-caption:
 
 L'Agència Catalana del Patrimoni Cultural,  és un ens que té, entre els seus serveis principals, funcions de dinamització del patrimoni, mitjançant la cooperació entre agents públics i privats per millorar la seva promoció, conservació i la gestió i fomentar l'ús del patrimoni cultural i dels equipaments que gestiona, prestant especial atenció a l'educació i al turisme cultural.
 
-Comissariat, producció i direcció de la itinerància de la mostra L’altra cara de la vida, una exposició d’art i cultura funerària creada a partir de 10 conjunts funeraris.
-
 ### Objectius
 
 ArGO!nautes és un programa d'ajuts a les sortides escolars als espais patrimonials catalans que s'inicia amb una primera fase pilot, adreçada exclusivament als centres educatius públics situats en entorns socials i econòmics desafavorits perquè puguin accedir als museus, monuments i jaciments de la Generalitat de Catalunya. La voluntat és que aviat el programa es pugui estendre a altres escoles, a altres equipaments patrimonials catalans i que es puguin cobrir també altres despeses, com ara la manutenció o les activitats. L'objectiu final és apropar el patrimoni cultural a tots els nens i nenes de Catalunya.
