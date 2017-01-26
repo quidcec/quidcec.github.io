@@ -15,7 +15,6 @@ image-caption:
 ### Projecte
 
 GRUP MÉMORA és líder a Espanya i Portugal en el sector funerari. Grup Mémora té la missió de gestionar el servei funerari de manera integral, des del moment de la mort fins que es duu a terme l’últim tràmit contractat, atenent les famílies amb professionalitat i honestedat.
-Projecte:
 
 Comissariat, producció i direcció de la itinerància de la mostra L’altra cara de la vida, una exposició d’art i cultura funerària creada a partir de 10 conjunts funeraris.
 
