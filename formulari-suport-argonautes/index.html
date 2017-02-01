@@ -1,0 +1,62 @@
+---
+layout: simple
+title: Formulari de suport al programa ArGO!nautes
+form: true
+---
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <h2>Dóna suport al programa ArGO!nautes</h2>
+        <div class="text-left">
+            <form method="POST" name="argonautesForm" action="https://formspree.io/pepmares@quid.cat">
+                <input type="hidden" name="_next" value="/formulari-suport-argonautes/gracies/" />
+                <input type="hidden" name="_subject" value="Nova petició de suport al programa arGOnautes" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="form-group">
+                    <label for="inputName">Nom</label>
+                    <input type="text" name="nom" class="form-control" id="inputName" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputSurname">Cognoms</label>
+                    <input type="text" name="cognoms" class="form-control" id="inputSurname" placeholder="Cognoms" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputCompany">Empresa</label>
+                    <input type="text" name="empresa" class="form-control" id="inputCompany" placeholder="Empresa" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputPosition">Càrrec</label>
+                    <input type="text" name="carrec" class="form-control" id="inputPosition" placeholder="Càrrec">
+                </div>
+                <div class="form-group">
+                    <label>Model de participació:</label>
+                    <div class="checkbox">
+                        <input type="checkbox" name="colaborador">Col·laborador
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="protector">Protector
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="patrocinador">Patrocinador
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="altres">Altres
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPhone">Telèfon</label>
+                    <input type="number" name="telefon" class="form-control" id="inputPhone" placeholder="933555555" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Correu electrònic</label>
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Correu-e" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Comentaris</label>
+                    <textarea class="form-control" name="missatge" id="inpuMessage" placeholder="Comentaris" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
