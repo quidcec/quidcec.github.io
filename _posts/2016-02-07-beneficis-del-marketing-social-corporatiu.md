@@ -4,7 +4,7 @@ title: Beneficis del Marketing social corporatiu
 category: articles 
 og: true
 og-type: article
-image: 
+image: beneficis-del-marketing-social-corporatiu.png
 image-caption: https://pixabay.com/en/wordcloud-tagcloud-cloud-text-tag-679948/
 ---
 
