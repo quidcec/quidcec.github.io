@@ -7,7 +7,6 @@ og-type: article
 image: art-per-donar-valor-al-teu-negoci.jpg
 image-caption: 
 
-
 Art & Place neix amb el doble objectiu de descontextualitzar els circuits tradicionals de l’art i de dinamitzar espais empresarials i locals comercials. 
 
 Realitzem exposicions i esdeveniments amb la intenció de donar accessibilitat a l’art contemporani i activar l’oferta d’oci dels locals participants. Donem l’oportunitat a l’empresa privada de vincular-se a un projecte innovador i creatiu dins la cultura i  l’art. 
