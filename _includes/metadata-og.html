@@ -39,7 +39,7 @@
           <meta name="twitter:creator" content="@{% if page.twitter_username %}{{ page.twitter-username }}{% else %}{{ site.twitter_username }}{% endif %}">
           <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }} &ndash; {% if page.category != '' %}{{ page.category }}{% endif %} &middot; {{ site.title }}">
           <meta name="twitter:description" content="{{% if page.destacat %}}{{ page.destacat | strip_html | strip_newlines | truncate: 160 }}{{ % else %}}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{{ % endif %}}">
-          <meta name="twitter:image:src" content="{{ site.url }}{{ site.assets-images }}{{ page.image }}">
+          <meta name="twitter:image:src" content="{{ site.url }}{{ site.assets-videos }}{{ page.poster-video }}">
       {% endif %}
       {% if page.class == '' %}
         <meta property="og:image" content="{{ site.url }}{{ site.assets-images }}logo-quid-about.png" />
