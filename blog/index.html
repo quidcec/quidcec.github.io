@@ -17,6 +17,9 @@ title: "Blog"
     {% for post in paginator.posts limit:1 offset:0 %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
+        {% if post.poster-video %}
+            <a href="{{ site.baseurl }}{{ post.url }}"><amp-img class="img-site-banner-top" width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-videos }}{{ post.poster-video }}"></amp-img></a>
+        {% endif %}
       {% if post.image %}
           <a href="{{ site.baseurl }}{{ post.url }}">{% if post.category == 'actualitat' %}<amp-img class="img-site-banner-top" width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image-w1050 }}"></amp-img>{% else %}<amp-img class="img-site-banner-top" width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-images }}{{ post.image }}"></amp-img>{% endif %}</a>
       {% endif %}

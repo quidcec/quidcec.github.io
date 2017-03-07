@@ -46,6 +46,43 @@ title: "Home"
     </header>
 
     <div class="cf frame">
+      {% for post in site.categories.video limit:1 offset:0 %}
+          <header class="blog-header">
+              <h2 class="blog-description"><strong>Vídeo</strong></h2>
+          </header>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+        {% if post.poster-video %}
+            <a href="{{ site.baseurl }}{{ post.url }}"><amp-img class="img-site-banner-top" width="600" height="300" layout="responsive" alt="{{ post.title }}" src="{{ site.assets-videos }}{{ post.poster-video }}"></amp-img></a>
+        {% endif %}
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+          </div>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date }}">{% assign m = post.date | date: "%-m" %}
+  {{ post.date | date: "%-d" }}
+  {% case m %}
+    {% when '1' %}Gener
+    {% when '2' %}Febrer
+    {% when '3' %}Març
+    {% when '4' %}Abril
+    {% when '5' %}Maig
+    {% when '6' %}Juny
+    {% when '7' %}Juliol
+    {% when '8' %}Agost
+    {% when '9' %}Setembre
+    {% when '10' %}Octubre
+    {% when '11' %}Novembre
+    {% when '12' %}Decembre
+  {% endcase %}
+  {{ post.date | date: "%Y" }}</time>
+              </div>
+        </article>
+      {% endfor %}
       {% for post in site.categories.actualitat limit:1 offset:0 %}
           <header class="blog-header">
               <h2 class="blog-description"><strong>Actualitat</strong></h2>
