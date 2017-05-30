@@ -4,7 +4,7 @@ title: Com integrar la RSC a la teva empresa
 category: articles 
 og: true
 og-type: article
-image: rsc-empresas-quid.jpg
+image: rsc-empresas-quid-600x300.jpg
 image-caption: 
 ---
 
