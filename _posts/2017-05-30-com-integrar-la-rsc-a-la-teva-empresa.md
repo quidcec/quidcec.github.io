@@ -16,7 +16,7 @@ Creure que la responsabilitat social no té influència en la construcció i enf
 
 Hi ha diverses maneres de crear una relació entre la responsabilitat social i la construcció de marca. Tot i que hi ha riscos i beneficis en aquestes estratègies els desavantatges seran masses si les àrees de màrqueting i RSE no treballen en conjunt. Si la teva empresa adopta aquesta relació de manera integral, és més probable que s’aconsegueixin els resultats desitjats. Els discursos d'RSE els pot fer una gran o una petita empresa, però, únicament aquelles que actuen i comuniquen de manera global aconsegueixen el seu objectiu. 
 
-### GUIA per incorporar RSC a la teva empresa
+### Guia per incorporar la RSC a la teva empresa
 
 
 •	Desenvolupar els Objectius i els principis i compromisos assumits voluntàriament.
