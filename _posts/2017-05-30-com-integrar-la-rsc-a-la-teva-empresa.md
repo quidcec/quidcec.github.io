@@ -8,9 +8,7 @@ image: rsc-empresas-quid.jpg
 image-caption: 
 ---
 
-Si vols incorporar i assegurar-te el futur sostenible de la teva empresa, no t’enfoquis només en els discursos sinó en l’acció i la comunicació.
-
-Quina és la raó per la qual les grans empreses han fallat en comunicar o implementar les seves iniciatives de responsabilitat social? La resposta és que han separat les seves estratègies en RSE de les seves estratègies de màrqueting.
+Quina és la raó per la qual grans empreses han fallat en comunicar o implementar les seves iniciatives de responsabilitat social? La resposta és que han separat les seves estratègies en RSE de les seves estratègies globals. Si vols incorporar i assegurar-te el futur sostenible de la teva empresa, no t’enfoquis només en els discursos sinó en l’acció i la comunicació.
 
 Creure que la responsabilitat social no té influència en la construcció i enfortiment d'una marca significa perdre valuoses oportunitats que, més tard, portaran conseqüències per a l'empresa. Si una companyia ja està invertint temps, diners i treball en desenvolupar iniciatives de RSE, per què no utilitzen aquests projectes per impulsar la marca i el balanç final dels negocis?
 
