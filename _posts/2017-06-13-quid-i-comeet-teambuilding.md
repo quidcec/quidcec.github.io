@@ -4,7 +4,7 @@ title: Quid i Comeet uneixen esforços per impulsar accions de Teambuilding cent
 category: articles 
 og: true
 og-type: article
-image: rsc-empresas-quid-600x300.jpg
+image: quid-partners.png
 image-caption: 
 ---
 
