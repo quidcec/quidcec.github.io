@@ -21,5 +21,5 @@ Pretén ser una experiència vivencial, on a través de dinàmiques lúdiques i 
 
 ### COMEET
 
-Comeet és una plataforma de professionals especialitzada en la comunicació i la cohesió d'equips, centrada en l'àmbit social, educatiu i empresarial. Imparteixen Tallers, Networkings i formacions de Teambuilding Creatiu. Organitzen esdeveniments i intervencions creatives en l'àmbit públic i privat.La seva metodologia està centrada en el joc i l’art com a eines facilitadores de comunicació entre les persones.
+[Comeet](https://www.comeetbcn.com/) és una plataforma de professionals especialitzada en la comunicació i la cohesió d'equips, centrada en l'àmbit social, educatiu i empresarial. Imparteixen Tallers, Networkings i formacions de Teambuilding Creatiu. Organitzen esdeveniments i intervencions creatives en l'àmbit públic i privat.La seva metodologia està centrada en el joc i l’art com a eines facilitadores de comunicació entre les persones.
 
