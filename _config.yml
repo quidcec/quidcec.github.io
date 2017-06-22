@@ -45,9 +45,8 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
-gems:
+plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
 
 whitelist:
   - jekyll-redirect-from
