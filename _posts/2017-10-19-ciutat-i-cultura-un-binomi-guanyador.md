@@ -5,7 +5,7 @@ title: Ciutat i cultura un binomi guanyador
 category: articles 
 og: true
 og-type: article
-image: qculture-city-ciutat-cultura.jpg
+image: culture-city-ciutat-cultura.jpg
 image-caption: 
 ---
 
