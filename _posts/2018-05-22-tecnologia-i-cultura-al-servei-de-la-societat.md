@@ -5,7 +5,7 @@ title: Tecnologia i cultura al servei de la societat
 category: articles 
 og: true
 og-type: article
-image: acord-adhoc-cultura-espai-creactiu-cultura-educacio-tic-innovació-social.jpg
+image: acord-adhoc-cultura-espai-creactiu-cultura-educacio-tic-innovació-social-1200.jpg
 image-caption: 
 ---
 TECNOLOGIA I CULTURA AL SERVEI DE LA SOCIETAT
