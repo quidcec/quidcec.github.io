@@ -6,7 +6,7 @@ title: Archaios, Els enigmes del Dolmen de la Llosa al 12è Festival de la Cièn
 category: articles 
 og: true
 og-type: article
-image: Captura de pantalla 2018-06-08 a les 19.09.08.png
+image: archaios-taller-arqueologia-divulgacio-cientifica
 image-caption: 
 ---
 En el context del 12è Festival de la Ciència a Barcelona, **Adhoc Cultura, IntegraCiència i Regirarocs  uneixen experiència i coneixements per presentar una activitat de difusió arqueològica**: Archaios, Els enigmes del Dolmen de la Llosa.
