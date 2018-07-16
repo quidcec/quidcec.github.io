@@ -6,7 +6,7 @@ title: ADHOC CULTURA ORGANITZA I GESTIONA BIBLIOLAB DEMO DAY
 category: articles 
 og: true
 og-type: article
-image: bibliolab-demo-day-adhoc-cultura-diputacio-barcelona.jpg
+image: bibliolab-demo-day-adhoc-cultura-diputacio-barcelona.png
 image-caption: Cristina Cremades
 ---
 
