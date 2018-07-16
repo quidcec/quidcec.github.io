@@ -7,7 +7,7 @@ category: articles
 og: true
 og-type: article
 image: bibliolab-demo-day-adhoc-cultura-diputacio-barcelona.png
-image-caption: Cristina Cremades
+image-caption: Foto by --> Cristina Cremades
 ---
 
 Els passats dies 19 i 20 de juny, Adhoc Cultura va organitzar **la primera jornada de BiblioLab Demo Day**. Aquesta acció inèdita, programada per la **Gerència de Serveis de Biblioteques de Barcelona**, es va realitzar a la **Fàbrica de creació Fabra i Coats** amb l’objectiu d’activar l’intercanvi d’idees i la creació de vincles entre entitats, biblioteques i ajuntaments. 
