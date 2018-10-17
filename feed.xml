@@ -6,8 +6,8 @@
 </description>
     <link>https://www.quid.cat/</link>
     <atom:link href="https://www.quid.cat/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Oct 2018 14:00:10 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Oct 2018 14:00:10 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Oct 2018 14:01:55 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Oct 2018 14:01:55 +0000</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -44,17 +44,16 @@
       </item>
     
       <item>
-        <title>Cultura I Transformacio Social Fem Ho A Mes Mar Mes Vela</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;layout: post	
-title: CULTURA I TRANSFORMACIÓ SOCIAL. FEM-HO, NO ESPEREM A MÉS MAR MÉS VELA
-category: articles
-og: true
-og-type: article
-image: cultura-i-transformacio-social-a-mes-mar-mes-vela.png
-image-caption: Cultura i transformació social 	
-—-	
-Són les 9 del matí d’un 20 d’abril assoleiat. Els membres d’Adhoc Cultura arribem puntuals a l’Antiga Fàbrica d’Estrella Damm per assistir a la primera edició de &lt;strong&gt;MUTARE, una jornada de co-creació&lt;/strong&gt; enfocada al sector cultural i social que neix gràcies a la Fundació Carulla aquest mateix any 2018.Juntament amb 300 assistents, ens preparem per ser partícips d’una jornada entorn al &lt;strong&gt;PODER TRANSFORMADOR DE LA CULTURA&lt;/strong&gt;, quelcom en el que creiem fermament.&lt;/p&gt;
+        <title>CULTURA I TRANSFORMACIÓ SOCIAL. FEM-HO, NO ESPEREM A MÉS MAR MÉS VELA</title>
+        <description>
+        <![CDATA[
+            <figure>
+            <img width="600" height="300" alt="CULTURA I TRANSFORMACIÓ SOCIAL. FEM-HO, NO ESPEREM A MÉS MAR MÉS VELA" src="https://www.quid.cat/assets/images/cultura-i-transformacio-social-a-mes-mar-mes-vela.png" />
+            <figcaption>Cultura i transformació social</figcaption>
+          </figure>
+        ]]>
+        
+         &lt;p&gt;Són les 9 del matí d’un 20 d’abril assoleiat. Els membres d’Adhoc Cultura arribem puntuals a l’Antiga Fàbrica d’Estrella Damm per assistir a la primera edició de &lt;strong&gt;MUTARE, una jornada de co-creació&lt;/strong&gt; enfocada al sector cultural i social que neix gràcies a la Fundació Carulla aquest mateix any 2018.Juntament amb 300 assistents, ens preparem per ser partícips d’una jornada entorn al &lt;strong&gt;PODER TRANSFORMADOR DE LA CULTURA&lt;/strong&gt;, quelcom en el que creiem fermament.&lt;/p&gt;
 
 &lt;p&gt;[MUTARE] (http://mutare.cat/) comença amb un conjunt de ponències i debats, els quals ens situen com a testimonis de projectes exitosos en camps tan diversos com l’urbanisme, la música o els museus. Aquesta primera part de les jornades ens ajuda a inspirar-nos i ens permet copsar noves tendències del sector, obtenint així nous recursos per a futurs projectes de l’empresa. Aquestes ponències i debats, però, també esdevenen crítics, fent-nos qüestionar, a tots plegats, dinàmiques pròpies del nostre sector que potser caldria canviar o replantejar.&lt;/p&gt;
 
@@ -82,9 +81,11 @@ Són les 9 del matí d’un 20 d’abril assoleiat. Els membres d’Adhoc Cultur
 &lt;p&gt;Tenint en consideració la nostra filosofia, així com els nostres objectius com a empresa, &lt;strong&gt;des d’Adhoc Cultura prenem el compromís de seguir aquest Decàleg&lt;/strong&gt;, incorporant els seus punts a l’hora de configurar noves accions i/o projectes en el nostre dia a dia. &lt;strong&gt;Aplaudim la iniciativa de la Fundació Carulla i la definició d’aquest decàleg com a eina i referent a l’hora de definir projectes culturals&lt;/strong&gt; amb el seu màxim component transformador. A la vida cal prendre partit, per això  d’entre les conclusions ens quedem amb el missatge de Clara Peya: &lt;em&gt;“fem-ho, no esperem”&lt;/em&gt; en resposta al canvi social i als nous reptes que afronta el sector cultural &lt;strong&gt;a més mar més vela!&lt;/strong&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
-        <link>https://www.quid.cat/2018/07/05/cultura-i-transformacio-social-fem-ho-a-mes-mar-mes-vela.html</link>
-        <guid isPermaLink="true">https://www.quid.cat/2018/07/05/cultura-i-transformacio-social-fem-ho-a-mes-mar-mes-vela.html</guid>
+        <link>https://www.quid.cat/articles/2018/07/05/cultura-i-transformacio-social-fem-ho-a-mes-mar-mes-vela.html</link>
+        <guid isPermaLink="true">https://www.quid.cat/articles/2018/07/05/cultura-i-transformacio-social-fem-ho-a-mes-mar-mes-vela.html</guid>
         
+        
+        <category>articles</category>
         
       </item>
     
