@@ -1,12 +1,12 @@
 ---
 layout: post	
-title: CULTURA I TRANSFORMACIÓ SOCIAL. FEM-HO, NO ESPEREM A MÉS MAR MÉS VELA
+title: "CULTURA I TRANSFORMACIÓ SOCIAL. FEM-HO, NO ESPEREM A MÉS MAR MÉS VELA"
 category: articles
 og: true
 og-type: article
 image: cultura-i-transformacio-social-a-mes-mar-mes-vela.png
-image-caption: Cultura i transformació social 	
-----	
+image-caption: Cultura i transformació social
+---
 Són les 9 del matí d’un 20 d’abril assoleiat. Els membres d’Adhoc Cultura arribem puntuals a l’Antiga Fàbrica d’Estrella Damm per assistir a la primera edició de **MUTARE, una jornada de co-creació** enfocada al sector cultural i social que neix gràcies a la Fundació Carulla aquest mateix any 2018.Juntament amb 300 assistents, ens preparem per ser partícips d’una jornada entorn al **PODER TRANSFORMADOR DE LA CULTURA**, quelcom en el que creiem fermament.
 
 [MUTARE] (http://mutare.cat/) comença amb un conjunt de ponències i debats, els quals ens situen com a testimonis de projectes exitosos en camps tan diversos com l’urbanisme, la música o els museus. Aquesta primera part de les jornades ens ajuda a inspirar-nos i ens permet copsar noves tendències del sector, obtenint així nous recursos per a futurs projectes de l’empresa. Aquestes ponències i debats, però, també esdevenen crítics, fent-nos qüestionar, a tots plegats, dinàmiques pròpies del nostre sector que potser caldria canviar o replantejar.
