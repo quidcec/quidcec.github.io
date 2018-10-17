@@ -1,2 +1,2 @@
-importScripts('/sw.js?v=b7136e2');
+importScripts('/sw.js?v=a2e5c72');
 importScripts('https://cdn.onesignal.com/sdks/OneSignalSDK.js');
