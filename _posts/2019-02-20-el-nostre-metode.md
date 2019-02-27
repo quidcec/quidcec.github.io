@@ -1,11 +1,13 @@
 ---
+
 layout: post
 title: El nostre mètode
 github_username: pepmares
 category: articles
 og: true
 og-type: article
-image: adhoc_metode.png
+image: adhoc-metode.png
+
 ---
 
 # El nostre mètode
@@ -32,8 +34,6 @@ Aquest document marc, únic i personalitzat, estructura uns nous fonaments pedag
 La darrera part d’aquest procés és la més emocionant. Desenvolupar el nou pla pedagògic, posar en marxa les línies estratègiques... En resum, portar a la pràctica el que s’havia exposat al document marc!
 Sobretot, el més divertit i també més complex, és crear noves activitats i desenvolupar-les fins que esdevinguin una proposta realista que creï un record positiu en la memòria d’aquells i aquelles que la realitzin.
 
-
 Gràcies a aquest procés, on les persones, la creativitat i la participació són les protagonistes, hem donat forma a noves propostes innovadores, úniques i especialment enfocades a les necessitats específiques de cada client. 
 
-Un mètode en el qual ja han confiat el Museu de l’Empordà, Museu de l’Hospitalet, Casa Vicens o el Museu Arqueològic de Catalunya. 
-Institucions amb les que ara treballem, braç a braç, per implementar els nous serveis pedagògics que hem creat entre totes i tots. 
+Un mètode en el qual ja han confiat el Museu de l’Empordà, Museu de l’Hospitalet, Casa Vicens o el Museu Arqueològic de Catalunya. Institucions amb les que ara treballem, braç a braç, per implementar els nous serveis pedagògics que hem creat entre totes i tots. 
