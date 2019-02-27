@@ -5,15 +5,11 @@ github_username: pepmares
 category: articles
 og: true
 og-type: article
-image: quid-adn.jpg
-image-caption: "3d render of dna structure, abstract background / fotolia"
+image: Adhoc_el_nostre_metode.png
 ---
 
 
 # El nostre mètode
-
-
-![](assets/images/Adhoc_el_nostre_metode.png)
 
 Una de les principals línies que treball que desenvolupem Adhoc Cultura és la consultoria per a institucions culturals. 
 
