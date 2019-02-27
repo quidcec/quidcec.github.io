@@ -1,27 +1,26 @@
-
 language: node_js
 sudo: required
 branches:
   except:
-  - master
+    - master
 node_js:
- - '6.1'
+  - '6.1'
 before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - npm cache clear
-  - rvm install 2.1
-  - rvm use 2.1
+  - rvm install 2.3
+  - rvm use 2.3
   - . $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1
   - gem install bundler
   - bundle check || bundle install
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: D8OnM6jKCOrLSSYYwU/VSFSScnTmdtct5wofrGtPvVXkdo5a3jWXd6O72i2jES7CBliJeYwb73NBRoy0wXB4zypTk56eb8dU8+CfholQBDSS0zwbeFd0x56mGHts4gjdOTjrvvMjFqWgVs14YLKV5u3qCo7MwlYfoO7cyVCN7CblB3diL9v+tvQfRg4eKUORnfybP8071kMVLag7D0oMyYFXcZslaytP1a1ITbCQ9RRC9TdFtrwOlprQahRXgh7ABROYgGkhFSx56BWpMQRfd6tpwKHu5ffzXMZ+7OYNP/wyDbsUl/LE8Hq4myB1vYFeGhxoDsD9RgF/1KxS75PdkIUy7StIaj8cxPki3n9iPSsJekHXwPVECKEJkBG/Dpw5RfbvdUnaSyaezSExsKO2cJwCJyORHmLhoo9yxo+q3RN7qnYGaQIKkAcOhGqLnezAGsbdQESG2LK0zK3pDpnP3AWBnPZblFtJffWIQT0gZEq77saPzlxKlmrlIQviB8iwHWWONVF42SIIpgmoNFXRGKHFkAKWc5s6646g207UPRmtW4t2vI9E2672oA6jFETanbSRZkvF0bsi5xrXX9W/p4LM9wyJZ5r398qujjlgG8plfP36b7EQX5ccLHi7V7APIaefqsDKfRBfD+IEAHrhvyZhCGnFRsKmFVGV+Qm46CI=
-  - secure: RglHIQKSwbonz6hz4L1oIAiYxQCGi0vpcxhkTSZb34WY+gj14el447sXso0DyQodqx+NjWHqhwmUU/zYCoA2hpFZt7017wO+WgGYlcfergIx2c0rJgEXSr4CVBBqYzz8twOiw6gOlRd4+TlLuuaLQUeT0QxB2tKWJf8CPm7BU6RU2hnrlob/Xmp75B7RsnDIva4eUC/JN1EWyfYC29/VGUGgRGHXDCIoNufZGeurkBb2S6TBmFOddniVRH0vbMIeZjEkTQTRGxTzn9Z5yhTHXpyTmIr629m0AAwNT5yJ7FPkKoKQ9tXyjS6PMjYw3vxjTRkgwFnVwEwhMsTJMJ9N0b31U7tOzrPjsrgg7U61ArJebx3j/l8Wunv11VLtcvhsslARNjA0N2KQ8bWAw42UpSokxUqCCWUMfxvLCF5tMcKbvBAZiUnyadb6vjZLpQjAZqDB1DKtnWEhrn2MbfnC+XAbX1Vb0UnFNGeGnFUv8YD4q5DJ59JlxPALH5rroIOsCsFOdMDNCuynbHuatDIouIJh6DQ2wgEyHEMfXsJaivXSZA7N45+Tq0nvRgZChJ4/+kmqZ5NSna3rk6KBh5mL87E8eo2QUfHl/G75lwrucwBBrFptJIgH+Q7F1Na/HIipc8gHKxCUDwTaCgjSz6srZt4WU6eii+HWi4wwkg7iQWI=
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - secure: D8OnM6jKCOrLSSYYwU/VSFSScnTmdtct5wofrGtPvVXkdo5a3jWXd6O72i2jES7CBliJeYwb73NBRoy0wXB4zypTk56eb8dU8+CfholQBDSS0zwbeFd0x56mGHts4gjdOTjrvvMjFqWgVs14YLKV5u3qCo7MwlYfoO7cyVCN7CblB3diL9v+tvQfRg4eKUORnfybP8071kMVLag7D0oMyYFXcZslaytP1a1ITbCQ9RRC9TdFtrwOlprQahRXgh7ABROYgGkhFSx56BWpMQRfd6tpwKHu5ffzXMZ+7OYNP/wyDbsUl/LE8Hq4myB1vYFeGhxoDsD9RgF/1KxS75PdkIUy7StIaj8cxPki3n9iPSsJekHXwPVECKEJkBG/Dpw5RfbvdUnaSyaezSExsKO2cJwCJyORHmLhoo9yxo+q3RN7qnYGaQIKkAcOhGqLnezAGsbdQESG2LK0zK3pDpnP3AWBnPZblFtJffWIQT0gZEq77saPzlxKlmrlIQviB8iwHWWONVF42SIIpgmoNFXRGKHFkAKWc5s6646g207UPRmtW4t2vI9E2672oA6jFETanbSRZkvF0bsi5xrXX9W/p4LM9wyJZ5r398qujjlgG8plfP36b7EQX5ccLHi7V7APIaefqsDKfRBfD+IEAHrhvyZhCGnFRsKmFVGV+Qm46CI=
+    - secure: RglHIQKSwbonz6hz4L1oIAiYxQCGi0vpcxhkTSZb34WY+gj14el447sXso0DyQodqx+NjWHqhwmUU/zYCoA2hpFZt7017wO+WgGYlcfergIx2c0rJgEXSr4CVBBqYzz8twOiw6gOlRd4+TlLuuaLQUeT0QxB2tKWJf8CPm7BU6RU2hnrlob/Xmp75B7RsnDIva4eUC/JN1EWyfYC29/VGUGgRGHXDCIoNufZGeurkBb2S6TBmFOddniVRH0vbMIeZjEkTQTRGxTzn9Z5yhTHXpyTmIr629m0AAwNT5yJ7FPkKoKQ9tXyjS6PMjYw3vxjTRkgwFnVwEwhMsTJMJ9N0b31U7tOzrPjsrgg7U61ArJebx3j/l8Wunv11VLtcvhsslARNjA0N2KQ8bWAw42UpSokxUqCCWUMfxvLCF5tMcKbvBAZiUnyadb6vjZLpQjAZqDB1DKtnWEhrn2MbfnC+XAbX1Vb0UnFNGeGnFUv8YD4q5DJ59JlxPALH5rroIOsCsFOdMDNCuynbHuatDIouIJh6DQ2wgEyHEMfXsJaivXSZA7N45+Tq0nvRgZChJ4/+kmqZ5NSna3rk6KBh5mL87E8eo2QUfHl/G75lwrucwBBrFptJIgH+Q7F1Na/HIipc8gHKxCUDwTaCgjSz6srZt4WU6eii+HWi4wwkg7iQWI=
 deploy:
   provider: script
-  script: "./_scripts/build.sh"
+  script: './_scripts/build.sh'
   skip_cleanup: false
   on:
     branch: source
