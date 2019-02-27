@@ -5,7 +5,7 @@ github_username: pepmares
 category: articles
 og: true
 og-type: article
-image: Adhoc_el_nostre_metode.png
+image: adhoc_metode.png
 ---
 
 # El nostre mètode
