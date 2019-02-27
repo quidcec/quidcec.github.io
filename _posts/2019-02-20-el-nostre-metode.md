@@ -8,7 +8,6 @@ og-type: article
 image: Adhoc_el_nostre_metode.png
 ---
 
-
 # El nostre mètode
 
 Una de les principals línies que treball que desenvolupem Adhoc Cultura és la consultoria per a institucions culturals. 
