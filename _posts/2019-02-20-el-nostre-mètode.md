@@ -1,6 +1,6 @@
 ---
 layout: post
-title: estem de proves ! !
+title: El nostre mètode
 github_username: pepmares
 category: articles
 og: true
