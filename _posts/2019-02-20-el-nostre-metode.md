@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: El nostre mètode
+title: EL NOSTRE MÈTODE
 github_username: pepmares
 category: articles
 og: true
@@ -9,8 +9,6 @@ og-type: article
 image: adhoc-metode.png
 
 ---
-
-# El nostre mètode
 
 Una de les principals línies que treball que desenvolupem Adhoc Cultura és la consultoria per a institucions culturals. 
 
